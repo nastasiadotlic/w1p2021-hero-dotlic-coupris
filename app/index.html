@@ -4,12 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>coucou</title>
+    <link rel="icon" href="https://image.flaticon.com/icons/svg/1657/1657122.svg"/>
+    <title>Jovial</title>
   </head>
   <body>
     <div id="root">
-      <router-view />
+      <transition name="black">
+          <router-view />
+      </transition>
+      
     </div>
+
+    <style>
+      .black-leave-active {
+        animation: toBlack 3s;
+      }
+
+      .black-enter-active {
+        animation: toBlack 3s ease  3s reverse;
+      }
+
+      @keyframes toBlack {
+        to {
+          opacity: 0;
+        }
+      }
+
+      body {
+        background: black;
+        overflow: hidden;
+      }
+
+      
+
+
+      
+    </style>
 
     <script src="./app.js"></script>
   </body>

@@ -1,18 +1,21 @@
-@import 'reset';
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+// ici ce sont les styles globaux 
 
-$hetic-green: #0de595;
+@import 'reset';
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+$background: #247BA0;
 
 body,
 button,
 input,
 select,
 textarea {
-  font-family: 'Roboto';
+  font-family: 'VT323', monospace;
+  font-size: 30px;
 }
 
 .big-header {
-  background-color: $hetic-green;
+  background-color: $background;
   height: 100vh;
 
   display: flex;
@@ -25,11 +28,16 @@ textarea {
 }
 
 .button {
-  color: $hetic-green;
+  color: $background;
   text-decoration: none;
   background: white;
   padding: 5px;
+  margin: 5px;
   border-radius: 5px;
   display: inline-block;
   border: none;
+}
+
+.choices {
+  display: flex;
 }

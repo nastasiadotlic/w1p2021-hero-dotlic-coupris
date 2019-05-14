@@ -1,0 +1,191 @@
+{
+  1: {
+    message: "Oh c'est donc toi notre héro en quête de grandes aventures, tu as décidé donc de partir sur les traces des plus grands héros de la mythologie afin de prouver sa bravoure ! Mais... qui es tu ? ",
+    answers: [
+    {
+      action: "LÉANDRE",
+      goto: 2
+    },
+    {
+      action: "PHAENNA",
+      goto: 2
+    }]
+  },
+
+  2: {
+    message: "Bienvenue [machin], ta quête commence ici, il est temps de quitter ton île natale pour partir à l’aventure. Mais tu as besoin d’un navire !"
+    answers: [
+    {
+      action: "Decider d’y aller à la nage",
+      goto: 3
+    },
+    {
+      action: "Se rendre au port pour acheter un bateau",
+      goto: 4
+    }]
+  },
+
+
+  3: {
+    message: "Oh non ! Tu t’es fait dévoré par des requins ! Tu aurais dû prendre le bateau...  "
+    actions: [
+      {
+        text: "Recommencer",
+        goto: /home
+      }
+    ]
+  },
+
+  4: {
+    message: "Oh au fait, pensez à emporter vos économies, vous avez travaillé durement pour mettre de côté toutes ces oboles. Elles vous servirons forcément !"
+    actions: [
+      {
+        text: "Continuer",
+        goto: 5
+      }
+    ]
+  },
+
+  5: {
+    message: "Vous voilà maintenant au port ! Plusieurs marchants de bateaux sont présents mais deux retiennent votre attention. Une chaloupe flambant neuve est fièrement exposée par son marchant. Son prix est assez élevé mais cela semble tout de même être une bonne affaire. Cependant un vieux rafiot est également disponible à la vente pour une bouchée de pain. Qu’allez vous faire ?"
+    answers: [
+    {
+      action: "Choisir le vieux rafiot",
+      goto: 6
+    },
+    {
+      action: "Choisir la chaloupe",
+      goto: 6
+    }]
+  },
+
+6: {
+  message: "Félicitation vous êtes maintenant en possession d’un bâteau !
+
+  Sans attendre davantage, vous embarquez en mer, les eaux semblent plutôt calmes aujourd’hui, c’est le temps idéal !
+
+  Mais au bout de quelques heures de navigation en mer, un étrange phénomène se produit... devant vous, au milieu de la brûme apparait Poséidon. Alors que vous vous inclinez devant le dieu des Océans, celui-ci s’adresse à vous ainsi :
+
+  Je te salue [machin], j’interrompt ton voyage pour te confier une quête, comme tu le sais, j’ai récemment perdu face à ma nièce, les athéniens étaient pris de folie et l’ont choisit à ma place. Le symbole de leur union est un cadeau d’Athéna, un Olivier sacré, planté au coeur de la cité. Je veux que tu te rendes à Athènes et empoisonnes cet arbre ! Si tu remplis ta mission, tu seras très bien recompenser, les dieux savent récompenser le mortel le méritant."
+  answers: [
+    {
+      action: "Vous acceptez la quête",
+      goto: 6
+    },
+    {
+      action: "Vous refusez la quête et continuez votre chemin",
+      goto: 7
+        //if chaloupe goto 7
+        //else goto 8
+    }]
+  },
+
+  7: {
+    message: "Poséidon, fou de rage face à votre refus, déchaîne les mers et une énorme tempête éclate.
+    
+    Heureusement que vous aviez décidé de mettre toutes vos économies dans cette chaloupe ! Vous arrivez à survivre la tempête ",
+    answers: [
+    {
+      action: "Continuer",
+      goto: 9
+    }]    
+  },
+
+  8: {
+    message: "Poséidon, fou de rage face à votre refus, déchaîne les mers et une énorme tempête éclate.
+    
+    Malheureusement votre vieux rafiot n’est pas de taille face à cette tempête ! Malgré tous vos efforts, votre bateau sombre dans la mer... ",
+    answers: [
+    {
+      action: "Recommencer la partie",
+      goto: /home
+    }]    
+  },
+
+
+  9: {
+    message: "Vous arrivez au bout de votre voyage en mer et débarqué sur une contrée loin de chez vous. Il fait nuit, vous avez besoin d’un endroit pour dormir. Au loin, vous voyez une auberge. Une nuit au chaud vous ferait le plus grand bien. Mais il ne vous reste que quelques oboles, que faire ?   ",
+    answers: [
+    {
+      action: "Dormir à la belle étoile",
+      goto: 10
+    }
+    {
+      action: "Passer la nuit à l’auberge",
+      goto: 11
+    }]    
+  },
+
+  10: {
+    message: "Vous aviez tout d’une proie facile et les bandits de grands chemins qui passaient par là ont su en tirer profit ! Après vous avoir tué dans votre sommeil, ils vous ont dépouillé et se sont enfuis avec vos biens."
+    answers: [
+    {
+      action: "Recommencer la partie",
+      goto: /home
+    }]  
+  },
+
+  11: {
+    message: "Après avoir mangé et bien bu, vous allez vous coucher. Le lendemain matin, vous demanderez à l’aubergiste le chemin pour Athènes. Votre aventure commence enfin ! "
+    answers: [
+    {
+      action: "Continuer l'aventure",
+      if rafiot goto: 12
+      if chaloupe goto: 13
+    }]
+  },
+
+  13: {
+    message: "Au bout de plusieurs heures de marches, vous arrivez dans le petit village de Kalyvia. C’est l’heure du marché et la ville est agréablement animée. Après avoir acheté quelques provisions, vous arrivez devant le stande d’un marchand de chevaux. 
+
+    Voyager à cheval serait idéal pour vous rendre jusqu’à Athènes ! "
+    Vous regardez autour de vous, le vendeur ne prête pas attention à vous. Aller à Athènes a pied ne vous embale gère...
+    answers: [
+    {
+      action: "Vous décidez de voler le cheval",
+      goto: 15
+    }]
+  },
+
+  12: {
+    message: "Au bout de plusieurs heures de marches, vous arrivez dans le petit village de Kalyvia. C’est l’heure du marché et la ville est agréablement animée. Après avoir acheté quelques provisions, vous arrivez devant le stande d’un marchand de chevaux. 
+
+    Voyager à cheval serait idéal pour vous rendre jusqu’à Athènes !
+    Vous aviez décider de garder vos économies pour plus tard et de ne pas beaucoup dépenser dans l’achat d’un bateau, vous voilà récompensé, vous pouvez acheter un cheval !"
+   
+    answers: [
+    {
+      action: "Vous décidez de
+      continuer à pied",
+      goto: 15
+    },
+    {
+      action: "Vous décidez de
+      continuer à pied",
+      goto: ??
+    }]   
+  },
+
+  14: {
+    message: "Le vendeur vous voit et lance les habitants à votre trousse ! Vous finissez l’aventure en prison..."
+    answers: [
+    {
+      action: "Recommencer la partie",
+      goto: /home
+    }]
+  },  
+
+
+
+  
+}
+
+
+
+
+
+PreviousChoice: {
+  "rafiot": {
+    
+  }
+} 

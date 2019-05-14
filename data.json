@@ -1,0 +1,34 @@
+{
+  1: {
+    message: "Bienvenue [machin], ta quête commence ici, il est temps de quitter ton île natale pour partir à l’aventure. Mais tu as besoin d’un navire !",
+    answers: [
+    {
+      action: "Decider d’y aller à la nage",
+      goto: 2
+    },
+    {
+      action: "Se rendre au port pour acheter un bateau",
+      goto: 3
+    }]
+  },
+  2: {
+    message: "Oh non ! Tu t’es fait dévoré par des requins ! Tu aurais dû prendre le bateau..."
+  },
+  3: {
+    message: 'Oh au fait, pensez à emporter vos économies, vous avez travaillé durement pour mettre de côté toutes ces oboles. Elles vous servirons forcément !'
+    actions: [
+      {
+        text: 'Continuer',
+        goto: 5
+      }
+    ]
+  },
+  15: {
+    message: "Poséidon, fou de rage face à votre refus, déchaîne les mers et une énorme tempête éclate.',
+    previousChoice: {
+      'rafiot': {
+        
+      }
+    }
+  }
+}

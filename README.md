@@ -4,8 +4,8 @@ URL du site : http://votre-url-ici.com
 
 ### Groupe
 
-- Nastasia & Dotlic
-- Cloé & Coupris
+- Nastasia Dotlic
+- Cloé Coupris
 
 ## Prologue
 

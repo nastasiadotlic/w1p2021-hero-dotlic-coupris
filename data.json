@@ -15,7 +15,7 @@
     message: "Oh non ! Tu t’es fait dévoré par des requins ! Tu aurais dû prendre le bateau..."
   },
   3: {
-    message: 'Oh au fait, pensez à emporter vos économies, vous avez travaillé durement pour mettre de côté toutes ces oboles. Elles vous servirons forcément !'
+    message: "Oh au fait, pensez à emporter vos économies, vous avez travaillé durement pour mettre de côté toutes ces oboles. Elles vous servirons forcément !"
     actions: [
       {
         text: 'Continuer',

@@ -18,13 +18,11 @@ textarea {
 .big-header {
   // background-color: $background;
   height: 100vh;
-
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
-
   color: white;
 }
 
@@ -43,6 +41,6 @@ textarea {
 }
 
 h1 {
-  color :black;
+  color :white;
   font-size: 50px;
 }

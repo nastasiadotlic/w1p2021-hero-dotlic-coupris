@@ -1,18 +1,43 @@
 <template>
-  <div> 
-    <h1><!--{{ step.message }}-->Bonjour</h1>
+  <div>
+    <h1>{{ message }}</h1>
 
-    <!--
-    <router-link v-for="action in step.actions" 
+    <!--<router-link v-for="action in step.actions" 
     :to="action.goto.toString()" :key="action">
-      {{ action.label }}
+      {{ action.answer }}
     </router-link>-->
   </div>
 </template>
 
 
+<script>
+//import game from '../../data.json';
 
-<!--
+export default {
+  data() {
+    return {
+      message: "coucou"
+    };
+  }
+};
+
+</script>
+
+<!-- <template>
+  <div> 
+    <h1>{{ step.message }}Bonjour</h1>
+
+    
+    <router-link v-for="action in step.actions" 
+    :to="action.goto.toString()" :key="action">
+      {{ action.label }}
+    </router-link>
+  </div>
+</template>
+
+
+
+
 <script>
 import game from '../../data.json';
 
@@ -43,6 +68,6 @@ export default {
 } 
 
 </script>
-
 -->
+
 

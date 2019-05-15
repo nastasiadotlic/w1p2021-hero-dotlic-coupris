@@ -19,6 +19,3 @@ export default {
 </script>
 
 
-<style>
-  * {background: url('https://www.telegraph.co.uk/content/dam/Travel/Destinations/Caribbean/Barbados/crete%20lead%202-xxlarge.jpg')}
-</style>

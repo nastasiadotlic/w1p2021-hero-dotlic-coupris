@@ -13,7 +13,7 @@
           "goto": 2
         }
       ]
-    }
+    },
     {
       "id": 2,
       "message": "Bienvenue [name], ta quête commence ici, il est temps de quitter ton île natale pour partir à l’aventure. Mais tu as besoin d’un navire !",
@@ -27,7 +27,7 @@
           "goto": 4
         }
       ]
-    }
+    },
     {
       "id": 3,
       "message": "Oh non ! Tu t’es fait dévorer par des requins ! Tu aurais dû prendre le bateau...",
@@ -35,6 +35,339 @@
         {
           "text": "Recommencer",
           "goto": "/home"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "message": "Oh au fait, pensez à emporter vos économies, vous avez travaillé durement pour mettre de côté toutes ces oboles. Elles vous serviront forcément !",
+      "actions": [
+        {
+          "text": "Continuer", 
+          "goto": 5
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "message": "Vous voilà maintenant au port ! Plusieurs marchands de bateaux sont présents, mais deux retiennent votre attention. Une chaloupe flambant neuve est fièrement exposée par son marchand. Son prix est assez élevé, mais cela semble tout de même être une bonne affaire. Cependant, un vieux raffiot est également disponible à la vente pour une bouchée de pain. Qu’allez-vous faire ?",
+      "actions": [
+        {
+        "answer": "Choisir le vieux raffiot",
+        "goto": 6
+        },
+        {
+          "answer": "Choisir la chaloupe",
+          "goto": 6
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "message": "Félicitations, vous êtes maintenant en possession d’un bateau ! Sans attendre davantage, vous embarquez en mer, les eaux semblent plutôt calmes aujourd’hui, c’est le temps idéal ! Mais au bout de quelques heures de navigation en mer, un étrange phénomène se produit. Devant vous, au milieu de la brume, apparait Poséidon. Alors que vous vous inclinez devant le dieu des Océans, celui-ci s’adresse à vous ainsi : Je te salue machin, j’interromps ton voyage pour te confier une quête. Comme tu le sais, les Athéniens pris de folie ont choisi ma nièce à ma place. Le prétextee en est qu'elle leur a offert un olivier sacré, planté au coeur de la cité. Je veux que tu te rendes à Athènes et que tu empoisonnes cet arbre ! Si tu remplis ta mission, tu ne le regretteras pas. Les dieux savent récompenser les mortels méritants.",
+      "actions": [
+        {
+          "answer": "Vous acceptez la quête",
+          "goto": 9
+        },
+        {
+          "answer": "Vous refusez la quête et continuez votre chemin",
+          "goto": 7,
+          "condition": "chaloupe"
+        },
+        {
+          "answer": "Vous refusez la quête et continuez votre chemin",
+          "goto": 8,
+          "condition": "raffiot"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "message": "Poséidon, fou de rage face à votre refus, déchaîne les mers et une énorme tempête éclate. Heureusement que vous aviez décidé de mettre toutes vos économies dans cette chaloupe ! Vous arrivez à survivre à la tempête ",
+      "actions": [
+        {
+          "answer": "Continuer",
+          "goto": 9
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "message": "Poséidon, fou de rage face à votre refus, déchaîne les mers et une énorme tempête éclate. Malheureusement votre vieux raffiot n’est pas de taille face à cette tempête ! Malgré tous vos efforts, votre bateau sombre dans la mer...",
+      "actions": [
+        {
+          "answer": "Recommencer la partie"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "message": "Vous arrivez au bout de votre voyage en mer et débarquez dans une contrée loin de chez vous. Il fait nuit, vous avez besoin d’un endroit où dormir. Au loin, vous voyez une auberge. Une nuit au chaud vous ferait le plus grand bien. Mais il ne vous reste que quelques oboles, que faire ?",
+      "actions": [
+        {
+          "answer": "Dormir à la belle étoile",
+          "goto": 10
+        },
+        {
+          "answer": "Passer la nuit à l’auberge",
+          "goto": 11
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "message": "Vous aviez tout d’une proie facile et les bandits de grand chemin qui passaient par là ont su en tirer profit ! Après vous avoir tué dans votre sommeil, ils vous ont dépouillé et se sont enfuis avec vos biens.",
+      "actions": [
+        {
+          "answer": "Recommencer la partie",
+          "goto": "/home"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "message": "Une fois rassasié et après une bonne nuit de sommeil, vous demandez à l’aubergiste le chemin d'Athènes.",
+      "actions": [
+        {
+          "answer": "Reprendre la route",
+          "goto": 12,
+          "condition": "rafiot"
+        },
+        {
+          "answer": "Reprendre la route",
+          "goto": 13,
+          "condition": "chaloupe"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "message": "Au bout de plusieurs heures de marche, vous arrivez dans le petit village de Kalyvia. C’est le jour du marché et la ville est agréablement animée. Après avoir acheté quelques provisions, vous rencontrez un marchand de chevaux. Voyager à cheval serait idéal pour vous rendre jusqu’à Athènes ! Vous avez été économe au début de votre voyage, cela vous permet maintenant d'acquérir un cheval !",
+      "actions": [
+        {
+          "answer": "Vous décidez de continuer à pied",
+          "goto": 15
+        },
+        {
+          "answer": "Vous acheter le cheval",
+          "goto": 16
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "message": "Au bout de plusieurs heures de marche, vous arrivez dans le petit village de Kalyvia. C’est le jour du marché et la ville est agréablement animée. Après avoir acheté quelques provisions, vous rencontrez un marchand de chevaux. Voyager à cheval serait idéal pour vous rendre jusqu’à Athènes ! Malheureusement vous n'avez plus les moyens d'acheter une monture. Vous regardez aux alentours, le vendeur ne prête pas attention à vous. Aller à Athènes à pied ne  vous enthousiasme guère...",
+      "actions": [
+        {
+          "answer": "Vous décidez de voler le cheval",
+          "goto": 14
+        },
+        {
+          "answer": "Vous décidez de continuer à pied",
+          "goto": 15
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "message": "Le vendeur vous voit et lance les habitants à vos trousses ! Vous finissez l’aventure en prison...",
+      "actions": [
+        {
+          "answer": "Recommencer la partie",
+          "goto": "/home"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "message": "Vous poursuivez votre aventure quand vous tombez sur un vieillard, gravement blessé. Aidez-moi !” vous crie-t-il.",
+      "actions": [
+        {
+          "answer": "Vous l’ignorez",
+          "goto": 16
+        },
+        {
+          "answer": "Vous vous arrêtez",
+          "goto": 18
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "message": "Quelques jours plus tard, alors que vous poursuiviez votre route, le  paysage change. Des statues jonchent une forêt terriblement silencieuse... Vous entendez des bruits inquiétants tout autour de vous et apercevez alors Méduse... mais vous n’avez aucune arme pour vous défendre !",
+      "actions": [
+        {
+          "answer": "Essayer de se cacher",
+          "goto": 17
+        },
+        {
+          "answer": "Ramasser une pierre pour essayer de se défendre",
+          "goto": 17
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "message": "Vous pensiez sincèrement vous en sortir ainsi ? Méduse, la célèbre et redoutée gorgone n’est en tout cas pas de cet avis. Vous avez osé vous rendre sur son territoire et elle ne le tolérera pas ! D’un simple regard, Méduse vous pétrifie. Vous rejoignez ainsi sa collection de statues.",
+      "actions": [
+        {
+          "answer": "Recommencer la partie",
+          "goto": "/home"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "message": "Le vieillard semble rassuré de vous voir vous arrêter mais il a l’air vraiment mal en point. En reprenant son souffle, il se présente et vous explique ce qui lui est arrivé. Pour défendre son village, Nestor s’est attaqué à un monstre qui terrorisait régulièrement les villageois, le griffon des montagnes... Alors que vous vous étonnez que cette mission ait été confiée à quelqu’un de si âgé, Nestor vous explique que durant sa jeunesse, il avait déjà combattu d’autres créatures de ce genre. Il vous confie aussi que ses exploits d’antan lui ont permis d’obtenir une arme spéciale : une dague magique empoisonnant tous ceux qu’elle frappe. Malheureusement, après avoir poignardé le griffon, l’horrible animal lui a porté un coup fatal. Le pauvre Nestor est à l’agonie, mais il vous explique que c’est aussi le cas du monstre. Il vous propose donc d’aller achever la créature et de récupérer la dague comme récompense !",
+      "actions": [
+        {
+          "answer": "Refuser la quête, vous n’avez pas le temps de l’aider",
+          "goto": 16
+        },
+        {
+          "answer": "Vous acceptez la quête et promettez de le venger !",
+          "goto": 19
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "message": "Quelques  heures de marche suffisent pour atteindre le repère du griffon,  vous vous aventurez prudemment dans une sombre caverne où vous apercevez enfin la créature  gravement blessée. La dague dépasse de son flan, le monste est à l’agonie. Vous réfléchissez à un stratagème afin de récupérer la dague prodigieuse.",
+      "actions": [
+        {
+          "answer": "Ramasser une pierre et essayer de fendre le crâne de la bête",
+          "goto": 20
+        },
+        {
+          "answer": "Se cacher et attendre que le poison fasse effet",
+          "goto": 21
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "message": "Malgré sa blessure, la bête est plus rapide que vous ! Elle esquive et vous attaque. Vous n’avez aucune arme pour vous défendre, elle n’a donc aucune difficulté à vous blesser mortellement.",
+      "actions": [
+        {
+          "answer": "Recommencer la partie",
+          "goto": "/home"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "message": "Au bout de quelques heures, votre stratagème paye enfin ! Le griffon a succombé à sa blessure. Vous récupérez la dague tant convoitée ! Il est temps de continuer votre voyage vers Athènes.",
+      "actions": [
+        {
+          "answer": "Poursuivre votre route",
+          "goto": 22
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "message": "Quelques jours plus tard, alors que vous poursuiviez votre route, le  paysage change. Des statues jonchent une forêt terriblement silencieuse... Tout semble plus sombre tout à coup. Vous dégainez votre dague, à l’affût de tout danger ! Soudain, vous apercevez une créature qui surgit des ténèbres. C’est Méduse ! Vous avez beaucoup entendu parler de ce monstre et vous connaissez son pouvoir. Vaincre cette créature ferait de vous un héros légendaire !",
+      "actions": [
+        {
+          "answer": "Attaquer Méduse",
+          "goto": 17
+        },
+        {
+          "answer": "Se cacher et attendre une opportunité",
+          "goto": 23
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "message": "Loin d’être lâche, se cacher était une excellente idéé ! Vous patientez attendant une opportunité d’attaquer et celle-ci se présente rapidement à vous. Méduse vous tourne le dos. Vous en profitez pour lui lancer votre dague. La créature s’effondre et meurt sur le coup ! Vous pouvez enfin vous approcher d’elle. Après avoir récupéré votre arme, vous lui tranchez la tête. Selon la légende, même morte, les pouvoirs de Méduse restent intacts. Sa tête vous sera utile pour vaincre vos ennemis !",
+      "actions": [
+        {
+          "answer": "Reprendre la route",
+          "goto": 24
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "message": "Vous arrivez enfin à Athènes ! La ville est majestueuse et pleine de beauté. Depuis l’extérieur de la ville, vous apercevez l’Acropole. Votre destination finale est au sommet de cette colline ; elle abrite le Parthénon et l’olivier sacré  !",
+      "actions": [
+        {
+          "answer": "Entrer immédiatement dans la ville",
+          "goto": 25
+        },
+        {
+          "answer": "Attendre le coucher du soleil",
+          "goto": 26
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "message": "La tête de Méduse que vous transportez pétrifie de pauvres innocents sur votre passage. D’autres Athéniens s’enfuient en courant et alertent les soldats ! Vous êtes capturé par la garde et éxécuté le lendemain...",
+      "actions": [
+        {
+          "answer": "Recommencer la partie",
+          "goto": "/home"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "message": "Après avoir attendu jusqu’au soir, vous pénétrez enfin discrètement dans la cité. Il n’y a plus grand-monde dans les rues et vous arrivez sans peine jusqu’à l’Acropole. Devant vous se dresse l’imposant temple d’Athéna, mais vous ne vous attardez pas devant cette prouesse architecturale, votre cible est si proche ! Alors que vous approchez de l’olivier sacré, des gardes vous barrent la route. Prévenu par Athéna de votre arrivée, ils ont ordre de vous arrêter.",
+      "actions": [
+        {
+          "answer": "Se battre avec la dague",
+          "goto": 27
+        },
+        {
+          "answer": "Utiliser la tête de Méduse",
+          "goto": 28
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "message": "Vous êtes rapidement dépassé par le nombre et vous mourez dans l’affrontement. Dommage, si près du but... ",
+      "actions": [
+        {
+          "answer": "Recommencer la partie",
+          "goto": "/home"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "message": "Vous brandissez la tête de Méduse devant vous et pétrifiez les gardes, complètement impuissants ! La voie est libre et vous voilà devant l’olivier. Poséidon vous a ordonné de l’empoisonner parce que c’est le symbole de la victoire d’Athéna. Concernant le poison, vous avez bien fait de venger Nestor ! Son arme est exactement ce qu’il vous faut. Vous la plantez dans les racines et l’effet semble étonnement rapide. Les branches s’affaissent, les feuilles fanent.",
+      "actions": [
+        {
+          "answer": "Continuer",
+          "goto": 29
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "message": "Très vite, comme si une sorte d’alerte avait été donnée, les Athéniens sortent de leurs demeures, désemparés par votre acte ! Comment vont-ils vivre sans la bénédiction d’Athéna ? Fous de colère, ils se ruent vers l’Acropole mais sont arrêtés par l’apparition soudaine de Poséidon. Poséïdon vous félicite pour votre bravoure et promet aux Athéniens de les protéger.",
+      "actions": [
+        {
+          "answer": "Continuer",
+          "goto": 30
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "message": "Les dieux savent tenir leurs promesses et Poséidon ne fait pas exception à la règle. Il vous laisse même le choix entre deux présents. Sa bénédiction vous permettra de naviguer librement sur tous les océans tout en vous assurant une victoire dans chacune de vos batailles navales. Sa seconde proposition est une arme, un trident pour être exact. Forgé pour Poséidon en personne, il a pour caractéristique de ne jamais manquer sa cible. Qu'allez vous choisir ?",
+      "actions": [
+        {
+          "answer": "La bénédiction",
+          "goto": "/end"
+        },
+        {
+          "answer": "L'arme",
+          "goto": "/end"
         }
       ]
     }

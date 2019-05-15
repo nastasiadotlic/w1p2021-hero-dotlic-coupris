@@ -15077,14 +15077,14 @@ var _default = {
   }
 };
 exports.default = _default;
-        var $098d65 = exports.default || module.exports;
+        var $e99938 = exports.default || module.exports;
       
-      if (typeof $098d65 === 'function') {
-        $098d65 = $098d65.options;
+      if (typeof $e99938 === 'function') {
+        $e99938 = $e99938.options;
       }
     
         /* template */
-        Object.assign($098d65, (function () {
+        Object.assign($e99938, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -15126,43 +15126,58 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$098d65', $098d65);
+            api.createRecord('$e99938', $e99938);
           } else {
-            api.reload('$098d65', $098d65);
+            api.reload('$e99938', $e99938);
           }
         }
 
         
-        var reloadCSS = require('_css_loader');
-        module.hot.dispose(reloadCSS);
-        module.hot.accept(reloadCSS);
-      
       }
     })();
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js","vue-hot-reload-api":"../node_modules/vue-hot-reload-api/dist/index.js","vue":"../node_modules/vue/dist/vue.common.js"}],"components/Game.vue":[function(require,module,exports) {
+},{"vue-hot-reload-api":"../node_modules/vue-hot-reload-api/dist/index.js","vue":"../node_modules/vue/dist/vue.common.js"}],"components/Game.vue":[function(require,module,exports) {
+"use strict";
 
-        var $a60f73 = exports.default || module.exports;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//import game from '../../data.json';
+var _default = {
+  data: function data() {
+    return {
+      message: "coucou"
+    };
+  }
+};
+exports.default = _default;
+        var $43e86b = exports.default || module.exports;
       
-      if (typeof $a60f73 === 'function') {
-        $a60f73 = $a60f73.options;
+      if (typeof $43e86b === 'function') {
+        $43e86b = $43e86b.options;
       }
     
         /* template */
-        Object.assign($a60f73, (function () {
+        Object.assign($43e86b, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", [_c("h1", [_vm._v(_vm._s(_vm.message))])])
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [_c("h1", [_vm._v("Bonjour")])])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
           return {
@@ -15182,9 +15197,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$a60f73', $a60f73);
+            api.createRecord('$43e86b', $43e86b);
           } else {
-            api.reload('$a60f73', $a60f73);
+            api.reload('$43e86b', $43e86b);
           }
         }
 
@@ -15273,7 +15288,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61803" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52714" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

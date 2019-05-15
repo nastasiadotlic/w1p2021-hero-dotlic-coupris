@@ -1,9 +1,10 @@
 // ici ce sont les styles globaux 
 
-@import 'reset';
+@import 'reset.scss';
+@import 'animations.scss';
 @import url('https://fonts.googleapis.com/css?family=VT323');
 
-$background: #247BA0;
+$background: #247BA0; 
 
 body,
 button,
@@ -15,7 +16,7 @@ textarea {
 }
 
 .big-header {
-  background-color: $background;
+  // background-color: $background;
   height: 100vh;
 
   display: flex;
@@ -28,7 +29,6 @@ textarea {
 }
 
 .button {
-  color: $background;
   text-decoration: none;
   background: white;
   padding: 5px;
@@ -40,4 +40,9 @@ textarea {
 
 .choices {
   display: flex;
+}
+
+h1 {
+  color :black;
+  font-size: 50px;
 }

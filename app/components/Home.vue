@@ -3,8 +3,7 @@
     <h1>{{ message }}</h1>
     <br />
     <div class="choices">
-      <router-link class="button" to="/game">Léandre</router-link>
-      <router-link class="button" to="/game">Phaenna</router-link>
+      <router-link class="button" to="/game">Commencer la partie</router-link>
     </div>
   </div>
 </template>
@@ -13,8 +12,13 @@
 export default {
   data() {
     return {
-      message: "Oh c'est donc toi notre héro en quête de grandes aventures, tu as décidé donc de partir sur les traces des plus grands héros de la mythologie afin de prouver sa bravoure ! Mais... qui es tu ?  "
+      message: "Salut, bienvenue, c'est à toi de jouer"
     };
   }
 };
 </script>
+
+
+<style>
+  * {background: url('https://www.telegraph.co.uk/content/dam/Travel/Destinations/Caribbean/Barbados/crete%20lead%202-xxlarge.jpg')}
+</style>

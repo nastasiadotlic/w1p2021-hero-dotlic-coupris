@@ -1,0 +1,12 @@
+.home {
+  height: 100vh;
+  background-image: url('../../assets/pictures/backgroundAthenes.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  color: white;
+}

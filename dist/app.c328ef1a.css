@@ -163,12 +163,33 @@ table {
   transform: translateX(-100vw);
 }
 
+.home {
+  height: 100vh;
+  background-image: url("/backgroundAthenes.b2287a07.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  color: white;
+}
+
+@font-face {
+  font-family: "Quattrocento regular";
+  src: url("/Quattrocento-Regular.68bdbae7.ttf");
+}
+@font-face {
+  font-family: "Quattrocento bold";
+  src: url("/Quattrocento-Bold.2e6e171c.ttf");
+}
 body,
 button,
 input,
 select,
 textarea {
-  font-family: "VT323", monospace;
+  font-family: "Quattrocento regular";
   font-size: 30px;
 }
 

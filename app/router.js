@@ -4,6 +4,7 @@ import Router from 'vue-router';
 import Home from './components/Home/Home.vue';
 import Game from './components/Game.vue';
 import Loose1 from './components/Loose/loose1.vue';
+import Win from './components/win.vue';
 
 
 
@@ -27,6 +28,11 @@ const router = new Router({
       path: '/loose1',
       name: 'loose1',
       component: Loose1,
+    },
+    {
+      path: '/win',
+      name: 'win',
+      component: Win,
     },
     {
       path: '*',

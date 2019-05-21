@@ -8,12 +8,11 @@
   </div>
 </template>
 
-<style lang="scss" scoped>
 
-</style>
 
 <script>
 //import images from '../../assets/images';
+
 
 export default {
   data() {

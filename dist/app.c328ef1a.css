@@ -165,7 +165,7 @@ table {
 
 .home {
   height: 100vh;
-  background-image: url("/backgroundAthenes.b2287a07.jpg");
+  background-image: url("/backgroundCity.fdaae1fc.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -209,8 +209,9 @@ textarea {
   padding: 5px;
   margin: 5px;
   border-radius: 5px;
-  display: inline-block;
   border: none;
+  display: inline;
+  flex-direction: row;
 }
 
 .choices {
@@ -219,7 +220,18 @@ textarea {
 
 h1 {
   color: white;
-  font-size: 50px;
+  font-size: 30px;
+}
+.game {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 /*# sourceMappingURL=/app.c328ef1a.css.map */

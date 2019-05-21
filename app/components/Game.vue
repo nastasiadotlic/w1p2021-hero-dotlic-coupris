@@ -1,16 +1,47 @@
 <template>
-  <div>
-    <h1> {{ step.message }} </h1>
-    <a href="#" v-for="(action, index) in step.actions" class="button" :key="index" @click.prevent="choiceSelected(action)"> {{ action.answer }} </a>
+  <div class="game qsdsq" v-bind:style="{ 'background-image': 'url(' + step.img + ')' }" >
+    <div class="game__text">
+      <h1> {{ step.message }} </h1>
+      <a href="#" v-for="(action, index) in step.actions" class="button" :key="index" @click.prevent="choiceSelected(action)"> {{ action.answer }} </a>
+    </div>
   </div>
 </template>
 
+<style>
+  .game {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  
+
+
+
+  
+
+
+</style>
+
+
 
 <script>
-import game from "../../data.json";
+import game from "../data.js"; // changer json en js si j'utilise data.js
 // import characterService from '../';
-
+ 
 export default {
+  /*data() {
+    return {
+      game: game
+    }
+  },*/
+
   computed: {
     step() {
       return this.findStep();
@@ -22,16 +53,21 @@ export default {
       return game.steps.find(step => step.id === Number(this.$route.params.id));
     },
     choiceSelected(action) {
-      // let character = '';
-      // if (this.step.id === 1) {
-      //   characterService.setCharacter(action.answer);
-      // } else {
-      //   character = characterService.getCharacter();
-      // }
+      //let character = '';
+      //if (this.step.id === 1) {
+      //  characterService.setCharacter(action.answer);
+      //} else {
+      //  character = characterService.getCharacter();
+      //}
 
-      // message.replace('{name}', name);
+      //message.replace('{name}', name);
 
-      this.$router.push({name: 'game', params: {id: action.goto}}) //changer l'ID
+      if (action.loose) {
+        this.$router.push({name: 'loose1'})
+      } else {
+        this.$router.push({name: 'game', params: {id: action.goto}})
+      }
+       //changer l'ID
 
     }
   },
@@ -39,51 +75,6 @@ export default {
 
 </script>
 
-<!-- <template>
-  <div> 
-    <h1>{{ step.message }}Bonjour</h1>
 
-    
-    <router-link v-for="action in step.actions" 
-    :to="action.goto.toString()" :key="action">
-      {{ action.label }}
-    </router-link>
-  </div>
-</template>
-
-
-
-
-<script>
-import game from '../../data.json';
-
-export default {
-  data: function() {
-    return {
-      step: this.getStep()
-      }
-    },
-    
-  mounted(){
-    console.log("hello")
-  },
-
-  methods: {
-    getStep() {
-      return game.steps.find (
-        step => step.id === parseInt(this.$route.params.id)
-      ) 
-    }
-  },
-
-  watch: {
-    '$route.params.id' (to,from) {
-      $this.step = this.getStep()
-    }
-  }
-} 
-
-</script>
--->
 
 

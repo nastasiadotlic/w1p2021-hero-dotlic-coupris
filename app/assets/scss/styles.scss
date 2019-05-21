@@ -34,8 +34,9 @@ textarea {
   padding: 5px;
   margin: 5px;
   border-radius: 5px;
-  display: inline-block;
   border: none;
+  display: inline;
+  flex-direction: row;
 }
 
 .choices {
@@ -44,7 +45,7 @@ textarea {
 
 h1 {
   color :white;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 

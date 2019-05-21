@@ -45,7 +45,6 @@ Venez jouer à cette adresse : http://votre-url-ici.com
 [Ici](https://www.figma.com/file/Yfd6eZvBPsnLdIbv2K7YRVFP/Mytholo-Choices?node-id=111%3A306)
 
 
-### Roadmap
 #### Schéma
 ![Roadmap](https://cdn.discordapp.com/attachments/498121611182997505/580461701573509150/mytholochoices.png)
 

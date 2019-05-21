@@ -15082,14 +15082,14 @@ var _default = {
   }
 };
 exports.default = _default;
-        var $867bd6 = exports.default || module.exports;
+        var $e4b9a4 = exports.default || module.exports;
       
-      if (typeof $867bd6 === 'function') {
-        $867bd6 = $867bd6.options;
+      if (typeof $e4b9a4 === 'function') {
+        $e4b9a4 = $e4b9a4.options;
       }
     
         /* template */
-        Object.assign($867bd6, (function () {
+        Object.assign($e4b9a4, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -15131,9 +15131,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$867bd6', $867bd6);
+            api.createRecord('$e4b9a4', $e4b9a4);
           } else {
-            api.reload('$867bd6', $867bd6);
+            api.reload('$e4b9a4', $e4b9a4);
           }
         }
 
@@ -15147,10 +15147,6 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-
-var _ref;
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 var city = require('./assets/pictures/backgroundCity.jpg');
 
@@ -15243,11 +15239,15 @@ var _default = {
     "id": 9,
     "img": "assets/pictures/backgroundHostel.jpg",
     "message": "Une fois rassasié et après une bonne nuit de sommeil, vous demandez à l’aubergiste le chemin d'Athènes.",
-    "actions": [(_ref = {
+    "actions": [{
       "answer": "REPRENDRE LA ROUTE",
       "condition": "chaloupe",
       "goto": 10
-    }, _defineProperty(_ref, "condition", "raffiot"), _defineProperty(_ref, "goto", 11), _ref)]
+    }, {
+      "answer": "REPRENDRE LA ROUTE",
+      "condition": "raffiot",
+      "goto": 11
+    }]
   }, {
     "id": 10,
     "img": "assets/pictures/backgroundMarket.jpg",
@@ -15462,14 +15462,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
 // changer json en js si j'utilise data.js
 // import characterService from '../';
 var _default = {
@@ -15516,14 +15508,14 @@ var _default = {
   }
 };
 exports.default = _default;
-        var $43e86b = exports.default || module.exports;
+        var $a60f73 = exports.default || module.exports;
       
-      if (typeof $43e86b === 'function') {
-        $43e86b = $43e86b.options;
+      if (typeof $a60f73 === 'function') {
+        $a60f73 = $a60f73.options;
       }
     
         /* template */
-        Object.assign($43e86b, (function () {
+        Object.assign($a60f73, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -15584,9 +15576,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$43e86b', $43e86b);
+            api.createRecord('$a60f73', $a60f73);
           } else {
-            api.reload('$43e86b', $43e86b);
+            api.reload('$a60f73', $a60f73);
           }
         }
 
@@ -15619,14 +15611,14 @@ var _default = {
   }
 };
 exports.default = _default;
-        var $d5b02a = exports.default || module.exports;
+        var $4ea24b = exports.default || module.exports;
       
-      if (typeof $d5b02a === 'function') {
-        $d5b02a = $d5b02a.options;
+      if (typeof $4ea24b === 'function') {
+        $4ea24b = $4ea24b.options;
       }
     
         /* template */
-        Object.assign($d5b02a, (function () {
+        Object.assign($4ea24b, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -15663,9 +15655,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$d5b02a', $d5b02a);
+            api.createRecord('$4ea24b', $4ea24b);
           } else {
-            api.reload('$d5b02a', $d5b02a);
+            api.reload('$4ea24b', $4ea24b);
           }
         }
 
@@ -15674,14 +15666,14 @@ render._withStripped = true
     })();
 },{"vue-hot-reload-api":"../node_modules/vue-hot-reload-api/dist/index.js","vue":"../node_modules/vue/dist/vue.common.js"}],"components/win.vue":[function(require,module,exports) {
 
-        var $47da79 = exports.default || module.exports;
+        var $e54f9f = exports.default || module.exports;
       
-      if (typeof $47da79 === 'function') {
-        $47da79 = $47da79.options;
+      if (typeof $e54f9f === 'function') {
+        $e54f9f = $e54f9f.options;
       }
     
         /* template */
-        Object.assign($47da79, (function () {
+        Object.assign($e54f9f, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -15718,9 +15710,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$47da79', $47da79);
+            api.createRecord('$e54f9f', $e54f9f);
           } else {
-            api.reload('$47da79', $47da79);
+            api.reload('$e54f9f', $e54f9f);
           }
         }
 
@@ -15821,7 +15813,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52115" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49957" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

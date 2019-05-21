@@ -1,4 +1,4 @@
-# Le site dont vous êtes le héros
+# Mytholo'Choices
 
 Venez jouer à cette adresse : http://votre-url-ici.com
 
@@ -38,3 +38,6 @@ Venez jouer à cette adresse : http://votre-url-ici.com
 | Multimédia | L'expérience présente un audio ou plus | - |
 | Multimédia | L'utilisateur a la possibilité de couper le son à tout moment | - |
 | Facultatif | Le repository contient un dossier /ressources contenant toutes les ressources ayant servi à la conception du jeu (schéma, design, figma...) | - |
+
+
+![Roadmap](https://cdn.discordapp.com/attachments/498121611182997505/580461701573509150/mytholochoices.png)

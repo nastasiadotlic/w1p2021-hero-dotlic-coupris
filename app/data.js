@@ -124,13 +124,13 @@ export default {
       "actions": [
         {
           "answer": "REPRENDRE LA ROUTE", 
-          
           "condition": "chaloupe",
-          "goto": 10,
-
+          "goto": 10
+        },
+        {
+          "answer": "REPRENDRE LA ROUTE", 
           "condition": "raffiot",
-          "goto": 11,
-
+          "goto": 11
         }
       ]
     },
@@ -374,4 +374,4 @@ export default {
       ]
     }
   ]
-}
+};

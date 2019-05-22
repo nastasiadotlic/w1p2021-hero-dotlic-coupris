@@ -1,13 +1,12 @@
 <template>
-  <div>
-    <h1> {{ message }} </h1>
+  <div class="loose1">
+    <h1 class="loose1__title">{{ message }}</h1>
     <router-link class="button" to="/">Recommencer la partie</router-link>
   </div>
 </template>
 
+
 <script>
-
-
 export default {
   data() {
     return {

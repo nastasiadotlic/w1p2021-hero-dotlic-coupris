@@ -1,0 +1,22 @@
+.loose7 {
+  height: 100vh;
+  background-image: url('../../assets/pictures/backgroundLoose7.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.loose7__title {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.418);
+  padding: 40px;
+  border-radius: 20px;
+  line-height: 40px;
+  margin-left: 200px;
+  margin-right: 200px;
+
+}

@@ -191,7 +191,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../pictures/backgroundCity.jpg":[["backgroundCity.fdaae1fc.jpg","assets/pictures/backgroundCity.jpg"],"assets/pictures/backgroundCity.jpg"],"./../fonts/Quattrocento-Regular.ttf":[["Quattrocento-Regular.68bdbae7.ttf","assets/fonts/Quattrocento-Regular.ttf"],"assets/fonts/Quattrocento-Regular.ttf"],"./../fonts/Quattrocento-Bold.ttf":[["Quattrocento-Bold.2e6e171c.ttf","assets/fonts/Quattrocento-Bold.ttf"],"assets/fonts/Quattrocento-Bold.ttf"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/vue/dist/vue.common.dev.js":[function(require,module,exports) {
+},{"./../pictures/backgroundCity.jpg":[["backgroundCity.fdaae1fc.jpg","assets/pictures/backgroundCity.jpg"],"assets/pictures/backgroundCity.jpg"],"./../fonts/Quattrocento-Regular.ttf":[["Quattrocento-Regular.68bdbae7.ttf","assets/fonts/Quattrocento-Regular.ttf"],"assets/fonts/Quattrocento-Regular.ttf"],"./../fonts/Quattrocento-Bold.ttf":[["Quattrocento-Bold.2e6e171c.ttf","assets/fonts/Quattrocento-Bold.ttf"],"assets/fonts/Quattrocento-Bold.ttf"],"./../pictures/backgroundLoose1.jpg":[["backgroundLoose1.41e360e3.jpg","assets/pictures/backgroundLoose1.jpg"],"assets/pictures/backgroundLoose1.jpg"],"./../pictures/backgroundLoose2.jpg":[["backgroundLoose2.da8f0c1d.jpg","assets/pictures/backgroundLoose2.jpg"],"assets/pictures/backgroundLoose2.jpg"],"./../pictures/backgroundLoose3.jpg":[["backgroundLoose3.3f8f6607.jpg","assets/pictures/backgroundLoose3.jpg"],"assets/pictures/backgroundLoose3.jpg"],"./../pictures/backgroundLoose4.jpg":[["backgroundLoose4.e40a53b3.jpg","assets/pictures/backgroundLoose4.jpg"],"assets/pictures/backgroundLoose4.jpg"],"./../pictures/backgroundLoose5.jpg":[["backgroundLoose5.551a933a.jpg","assets/pictures/backgroundLoose5.jpg"],"assets/pictures/backgroundLoose5.jpg"],"./../pictures/backgroundLoose6.jpg":[["backgroundLoose6.524c38ae.jpg","assets/pictures/backgroundLoose6.jpg"],"assets/pictures/backgroundLoose6.jpg"],"./../pictures/backgroundLoose7.jpg":[["backgroundLoose7.90b77e99.jpg","assets/pictures/backgroundLoose7.jpg"],"assets/pictures/backgroundLoose7.jpg"],"./../pictures/backgroundLoose8.jpg":[["backgroundLoose8.5dd04cf1.jpg","assets/pictures/backgroundLoose8.jpg"],"assets/pictures/backgroundLoose8.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/vue/dist/vue.common.dev.js":[function(require,module,exports) {
 var global = arguments[3];
 /*!
  * Vue.js v2.6.10
@@ -15073,7 +15073,8 @@ exports.default = void 0;
 //
 //
 //
-//import images from '../../assets/images';
+//
+//
 var _default = {
   data: function data() {
     return {
@@ -15082,34 +15083,32 @@ var _default = {
   }
 };
 exports.default = _default;
-        var $e4b9a4 = exports.default || module.exports;
+        var $867bd6 = exports.default || module.exports;
       
-      if (typeof $e4b9a4 === 'function') {
-        $e4b9a4 = $e4b9a4.options;
+      if (typeof $867bd6 === 'function') {
+        $867bd6 = $867bd6.options;
       }
     
         /* template */
-        Object.assign($e4b9a4, (function () {
+        Object.assign($867bd6, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "home" }, [
-    _c("h1", [_vm._v(_vm._s(_vm.message))]),
-    _vm._v(" "),
-    _c("br"),
-    _vm._v(" "),
-    _c(
-      "div",
-      { staticClass: "choices" },
-      [
-        _c("router-link", { staticClass: "button", attrs: { to: "/game/1" } }, [
-          _vm._v("Commencer la partie")
-        ])
-      ],
-      1
-    )
-  ])
+  return _c(
+    "div",
+    { staticClass: "home" },
+    [
+      _c("h1", { staticClass: "home__title" }, [_vm._v("MYTHOLO' CHOICES")]),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("router-link", { staticClass: "button", attrs: { to: "/game/1" } }, [
+        _vm._v("Commencer la partie")
+      ])
+    ],
+    1
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -15131,16 +15130,38 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$e4b9a4', $e4b9a4);
+            api.createRecord('$867bd6', $867bd6);
           } else {
-            api.reload('$e4b9a4', $e4b9a4);
+            api.reload('$867bd6', $867bd6);
           }
         }
 
         
       }
     })();
-},{"vue-hot-reload-api":"../node_modules/vue-hot-reload-api/dist/index.js","vue":"../node_modules/vue/dist/vue.common.js"}],"data.js":[function(require,module,exports) {
+},{"vue-hot-reload-api":"../node_modules/vue-hot-reload-api/dist/index.js","vue":"../node_modules/vue/dist/vue.common.js"}],"assets/pictures/backgroundHarbour.jpg":[function(require,module,exports) {
+module.exports = "/backgroundHarbour.56d3a10f.jpg";
+},{}],"assets/pictures/backgroundSea.jpg":[function(require,module,exports) {
+module.exports = "/backgroundSea.1dcaeaf0.jpg";
+},{}],"assets/pictures/backgroundPoseidon.jpg":[function(require,module,exports) {
+module.exports = "/backgroundPoseidon.f6c1524c.jpg";
+},{}],"assets/pictures/backgroundStorm.jpg":[function(require,module,exports) {
+module.exports = "/backgroundStorm.54e03321.jpg";
+},{}],"assets/pictures/backgroundHostel.jpg":[function(require,module,exports) {
+module.exports = "/backgroundHostel.b0ea2c59.jpg";
+},{}],"assets/pictures/backgroundMarket.jpg":[function(require,module,exports) {
+module.exports = "/backgroundMarket.4b2e8ea8.jpg";
+},{}],"assets/pictures/backgroundOldman.jpg":[function(require,module,exports) {
+module.exports = "/backgroundOldman.cd42799a.jpg";
+},{}],"assets/pictures/backgroundCave.jpg":[function(require,module,exports) {
+module.exports = "/backgroundCave.89f0d212.jpg";
+},{}],"assets/pictures/backgroundForest.jpg":[function(require,module,exports) {
+module.exports = "/backgroundForest.1bdd739a.jpg";
+},{}],"assets/pictures/backgroundAthene.jpg":[function(require,module,exports) {
+module.exports = "/backgroundAthene.f50aa478.jpg";
+},{}],"assets/pictures/backgroundAtheneNight.jpg":[function(require,module,exports) {
+module.exports = "/backgroundAtheneNight.f37813fe.jpg";
+},{}],"data.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -15149,6 +15170,28 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var city = require('./assets/pictures/backgroundCity.jpg');
+
+var harbour = require('./assets/pictures/backgroundHarbour.jpg');
+
+var sea = require('./assets/pictures/backgroundSea.jpg');
+
+var poseidon = require('./assets/pictures/backgroundPoseidon.jpg');
+
+var storm = require('./assets/pictures/backgroundStorm.jpg');
+
+var hostel = require('./assets/pictures/backgroundHostel.jpg');
+
+var market = require('./assets/pictures/backgroundMarket.jpg');
+
+var oldman = require('./assets/pictures/backgroundOldman.jpg');
+
+var cave = require('./assets/pictures/backgroundCave.jpg');
+
+var forest = require('./assets/pictures/backgroundForest.jpg');
+
+var athene = require('./assets/pictures/backgroundAthene.jpg');
+
+var night = require('./assets/pictures/backgroundAtheneNight.jpg');
 
 var _default = {
   "steps": [{
@@ -15175,7 +15218,7 @@ var _default = {
     }]
   }, {
     "id": 3,
-    "img": "./assets/pictures/backgroundRoad.jpg",
+    "img": city,
     "message": "Oh au fait, pensez à emporter vos économies, vous avez travaillé durement pour mettre de côté toutes ces oboles. Elles vous servirons forcément !",
     "actions": [{
       "answer": "CONTINUER",
@@ -15183,18 +15226,19 @@ var _default = {
     }]
   }, {
     "id": 4,
-    "img": "assets/pictures/backgroundHarbour.jpg",
+    "img": harbour,
     "message": "Vous voilà maintenant au port ! Plusieurs marchants de bateaux sont présents mais deux retiennent votre attention. Une chaloupe flambant neuve est fièrement exposée par son marchant. Son prix est assez élevé mais cela semble tout de même être une bonne affaire. Cependant un vieux rafiot est également disponible à la vente pour une bouchée de pain. Qu’allez vous acheter ?",
     "actions": [{
-      "answer": "RAFFIOT",
-      "goto": 5
-    }, {
       "answer": "CHALOUPE",
       "goto": 5
+    }, {
+      "answer": "RAFFIOT",
+      "goto": 11
     }]
-  }, {
+  }, //BRANCHE CHALOUPE
+  {
     "id": 5,
-    "img": "assets/pictures/backgroundSea.jpg",
+    "img": sea,
     "message": "Félicitation vous êtes maintenant en possession d’un bâteau ! Sans attendre davantage, vous embarquez en mer, les eaux semblent plutôt calmes aujourd’hui, c’est le temps idéal ! Mais au bout de quelques heures de navigation en mer, un étrange phénomène se produit... devant vous, au milieu de la brûme apparait Poséidon. Alors que vous vous inclinez devant le dieu des Océans, celui-ci s’adresse à vous.",
     "actions": [{
       "answer": "CONTINUER",
@@ -15202,23 +15246,18 @@ var _default = {
     }]
   }, {
     "id": 6,
-    "img": "assets/pictures/backgroundPoseidon.jpg",
+    "img": poseidon,
     "message": "Je te salue [machin], j’interrompt ton voyage pour te confier une quête, comme tu le sais, j’ai récemment perdu face à ma nièce, les athéniens étaient pris de folie et l’ont choisit à ma place. Le symbole de leur union est un cadeau d’Athéna, un Olivier sacré, planté au coeur de la cité. Je veux que tu te rendes à Athènes et empoisonnes cet arbre ! Si tu remplis ta mission, tu seras très bien recompenser, les dieux savent récompenser le mortel le méritant.",
     "actions": [{
       "answer": "ACCEPTER",
       "goto": 8
     }, {
       "answer": "REFUSER",
-      "goto": 7,
-      "condition": "chaloupe"
-    }, {
-      "answer": "REFUSER",
-      "goto": "/loose2",
-      "condition": "raffiot"
+      "goto": 7
     }]
   }, {
     "id": 7,
-    "img": "assets/pictures/backgroundStorm.jpg",
+    "img": storm,
     "message": "Poséidon, fou de rage face à votre refus, déchaîne les mers et une énorme tempête éclate. Heureusement que vous aviez décidé de mettre toutes vos économies dans cette chaloupe ! Vous arrivez à survivre la tempête.",
     "actions": [{
       "answer": "CONTINUER",
@@ -15226,194 +15265,231 @@ var _default = {
     }]
   }, {
     "id": 8,
-    "img": "assets/pictures/backgroundHostel.jpg",
+    "img": hostel,
     "message": "Vous arrivez au bout de votre voyage en mer et débarquez sur une contrée loin de chez vous. Il fait nuit, vous avez besoin d’un endroit pour dormir. Au loin, vous voyez une auberge. Une nuit au chaud vous ferait le plus grand bien. Mais il ne vous reste que quelques oboles, ou allez-vous dormir ?",
     "actions": [{
       "answer": "AUBERGE",
       "goto": 9
     }, {
       "answer": "DEHORS",
-      "goto": "/Loose3"
+      "loose": "loose3"
     }]
   }, {
     "id": 9,
-    "img": "assets/pictures/backgroundHostel.jpg",
+    "img": hostel,
     "message": "Une fois rassasié et après une bonne nuit de sommeil, vous demandez à l’aubergiste le chemin d'Athènes.",
     "actions": [{
       "answer": "REPRENDRE LA ROUTE",
-      "condition": "chaloupe",
       "goto": 10
-    }, {
-      "answer": "REPRENDRE LA ROUTE",
-      "condition": "raffiot",
-      "goto": 11
     }]
   }, {
     "id": 10,
-    "img": "assets/pictures/backgroundMarket.jpg",
+    "img": market,
     "message": "Au bout de plusieurs heures de marche, vous arrivez dans le petit village de Kalyvia. C’est le jour du marché et la ville est agréablement animée. Après avoir acheté quelques provisions, vous rencontrez un marchand de chevaux. Voyager à cheval serait idéal pour vous rendre jusqu’à Athènes ! Malheureusement vous n'avez plus les moyens d'acheter une monture. Vous regardez aux alentours, le vendeur ne prête pas attention à vous. Aller à Athènes à pied ne vous enthousiasme guère...",
     "actions": [{
       "answer": "VOLER",
-      "goto": "/Loose4"
+      "loose": "loose4"
     }, {
       "answer": "REPRENDRE LA ROUTE",
-      "goto": 12
+      "goto": 16
     }]
-  }, {
+  }, //FIN BRANCHE CHALOUPE
+  {
+    //BRANCHE RAFFIOT
     "id": 11,
-    "img": "assets/pictures/backgroundMarket.jpg",
-    "message": "Au bout de plusieurs heures de marche, vous arrivez dans le petit village de Kalyvia. C’est le jour du marché et la ville est agréablement animée. Après avoir acheté quelques provisions, vous rencontrez un marchand de chevaux. Voyager à cheval serait idéal pour vous rendre jusqu’à Athènes ! Vous avez été économe au début de votre voyage, cela vous permet maintenant d'acquérir un cheval !",
+    "img": sea,
+    "message": "Félicitation vous êtes maintenant en possession d’un bâteau ! Sans attendre davantage, vous embarquez en mer, les eaux semblent plutôt calmes aujourd’hui, c’est le temps idéal ! Mais au bout de quelques heures de navigation en mer, un étrange phénomène se produit... devant vous, au milieu de la brûme apparait Poséidon. Alors que vous vous inclinez devant le dieu des Océans, celui-ci s’adresse à vous.",
     "actions": [{
-      "answer": "ACHETER",
-      "goto": 12
-    }, {
-      "answer": "REPRENDRE LA ROUTE",
+      "answer": "CONTINUER",
       "goto": 12
     }]
   }, {
     "id": 12,
-    "img": "assets/pictures/backgroundOldman.jpg",
-    "message": "Vous poursuivez votre aventure quand vous tombez sur un vieillard, gravement blessé. Aidez-moi !” vous crie-t-il.",
+    "img": poseidon,
+    "message": "Je te salue [machin], j’interrompt ton voyage pour te confier une quête, comme tu le sais, j’ai récemment perdu face à ma nièce, les athéniens étaient pris de folie et l’ont choisit à ma place. Le symbole de leur union est un cadeau d’Athéna, un Olivier sacré, planté au coeur de la cité. Je veux que tu te rendes à Athènes et empoisonnes cet arbre ! Si tu remplis ta mission, tu seras très bien recompenser, les dieux savent récompenser le mortel le méritant.",
     "actions": [{
-      "answer": "IGNORER",
-      "goto": 18
-    }, {
-      "answer": "S'ARRÊTER",
+      "answer": "ACCEPTER",
       "goto": 13
+    }, {
+      "answer": "REFUSER",
+      "loose": "loose2"
     }]
   }, {
     "id": 13,
-    "img": "assets/pictures/backgroundOldman.jpg",
-    "message": "Le vieillard semble rassuré de vous voir vous arrêter mais il a l’air vraiment mal en point. En reprenant son souffle, il se présente et vous explique ce qui lui est arrivé. Pour défendre son village, Nestor s’est attaqué à un monstre qui terrorisait régulièrement les villageois, le griffon des montagnes... Alors que vous vous étonnez que cette mission ait été confiée à quelqu’un de si âgé, Nestor vous explique que durant sa jeunesse, il avait déjà combattu d’autres créatures de ce genre.",
+    "img": hostel,
+    "message": "Vous arrivez au bout de votre voyage en mer et débarquez sur une contrée loin de chez vous. Il fait nuit, vous avez besoin d’un endroit pour dormir. Au loin, vous voyez une auberge. Une nuit au chaud vous ferait le plus grand bien. Mais il ne vous reste que quelques oboles, ou allez-vous dormir ?",
     "actions": [{
-      "answer": "CONTINUER",
+      "answer": "AUBERGE",
       "goto": 14
+    }, {
+      "answer": "DEHORS",
+      "loose": "loose3"
     }]
   }, {
     "id": 14,
-    "img": "assets/pictures/backgroundOldman.jpg",
-    "message": "Il vous confie aussi que ses exploits d’antan lui ont permis d’obtenir une arme spéciale : une dague magique empoisonnant tous ceux qu’elle frappe. Malheureusement, après avoir poignardé le griffon, l’horrible animal lui a porté un coup fatal. Le pauvre Nestor est à l’agonie, mais il vous explique que c’est aussi le cas du monstre. Il vous propose donc d’aller achever la créature et de récupérer la dague comme récompense !",
+    "img": hostel,
+    "message": "Une fois rassasié et après une bonne nuit de sommeil, vous demandez à l’aubergiste le chemin d'Athènes.",
     "actions": [{
-      "answer": "ACCEPTER",
+      "answer": "REPRENDRE LA ROUTE",
       "goto": 15
-    }, {
-      "answer": "REFUSER",
-      "goto": 18
     }]
   }, {
     "id": 15,
-    "img": "assets/pictures/backgroundCave.jpg",
-    "message": "Quelques heures de marche suffisent pour atteindre le repère du griffon, vous vous aventurez prudemment dans une sombre caverne où vous apercevez enfin la créature  gravement blessée. La dague dépasse de son flan, le monste est à l’agonie. Vous réfléchissez à un stratagème afin de récupérer la dague prodigieuse. Vous pourriez ramasser une pierre et essayer de fendre le crâne de la bête ou vous cacher et attendre que le poison fasse effet.",
+    "img": market,
+    "message": "Au bout de plusieurs heures de marche, vous arrivez dans le petit village de Kalyvia. C’est le jour du marché et la ville est agréablement animée. Après avoir acheté quelques provisions, vous rencontrez un marchand de chevaux. Voyager à cheval serait idéal pour vous rendre jusqu’à Athènes ! Vous avez été économe au début de votre voyage, cela vous permet maintenant d'acquérir un cheval !",
     "actions": [{
-      "answer": "ATTAQUER",
-      "goto": "/loose5"
+      "answer": "ACHETER",
+      "goto": 16
     }, {
-      "answer": "SE CACHER",
+      "answer": "REPRENDRE LA ROUTE",
       "goto": 16
     }]
-  }, {
+  }, //FIN BRANCHE RAFFIOT
+  {
+    //REPRISE BRANCHE COMMUNE
     "id": 16,
-    "img": "assets/pictures/backgroundCave.jpg",
-    "message": "Au bout de quelques heures, votre stratagème paye enfin ! Le griffon a succombé à sa blessure. Vous récupérez la dague tant convoitée ! Il est temps de continuer votre voyage vers Athènes.",
+    "img": oldman,
+    "message": "Vous poursuivez votre aventure quand vous tombez sur un vieillard, gravement blessé. Aidez-moi !” vous crie-t-il.",
     "actions": [{
-      "answer": "REPRENDRE LA ROUTE",
+      "answer": "IGNORER",
+      "goto": 22
+    }, {
+      "answer": "S'ARRÊTER",
       "goto": 17
     }]
   }, {
     "id": 17,
-    "img": "assets/pictures/backgroundForest.jpg",
-    "message": "Quelques jours plus tard, alors que vous poursuiviez votre route, le  paysage change. Des statues jonchent une forêt terriblement silencieuse... Tout semble plus sombre tout à coup. Vous dégainez votre dague, à l’affût de tout danger ! Soudain, vous apercevez une créature qui surgit des ténèbres.",
+    "img": oldman,
+    "message": "Le vieillard semble rassuré de vous voir vous arrêter mais il a l’air vraiment mal en point. En reprenant son souffle, il se présente et vous explique ce qui lui est arrivé. Pour défendre son village, Nestor s’est attaqué à un monstre qui terrorisait régulièrement les villageois, le griffon des montagnes... Alors que vous vous étonnez que cette mission ait été confiée à quelqu’un de si âgé, Nestor vous explique que durant sa jeunesse, il avait déjà combattu d’autres créatures de ce genre.",
     "actions": [{
       "answer": "CONTINUER",
-      "goto": 19
+      "goto": 18
     }]
   }, {
     "id": 18,
-    "img": "assets/pictures/backgroundForest.jpg",
-    "message": "Quelques jours plus tard, alors que vous poursuiviez votre route, le  paysage change. Des statues jonchent une forêt terriblement silencieuse... Vous entendez des bruits inquiétants tout autour de vous et apercevez alors Méduse... mais vous n’avez aucune arme pour vous défendre !",
+    "img": oldman,
+    "message": "Il vous confie aussi que ses exploits d’antan lui ont permis d’obtenir une arme spéciale : une dague magique empoisonnant tous ceux qu’elle frappe. Malheureusement, après avoir poignardé le griffon, l’horrible animal lui a porté un coup fatal. Le pauvre Nestor est à l’agonie, mais il vous explique que c’est aussi le cas du monstre. Il vous propose donc d’aller achever la créature et de récupérer la dague comme récompense !",
     "actions": [{
-      "answer": "ATTAQUER",
-      "goto": "/loose6"
+      "answer": "ACCEPTER",
+      "goto": 19
     }, {
-      "answer": "SE CACHER",
-      "goto": "/loose6"
+      "answer": "REFUSER",
+      "goto": 22
     }]
   }, {
     "id": 19,
-    "img": "assets/pictures/backgroundForest.jpg",
-    "message": "C’est Méduse ! Vous avez beaucoup entendu parler de ce monstre et vous connaissez son pouvoir. Vaincre cette créature ferait de vous un héros légendaire ! Vous pourriez  attaquer mais il  serait peut être plus sage d'attendre...",
+    "img": cave,
+    "message": "Quelques heures de marche suffisent pour atteindre le repère du griffon, vous vous aventurez prudemment dans une sombre caverne où vous apercevez enfin la créature  gravement blessée. La dague dépasse de son flan, le monste est à l’agonie. Vous réfléchissez à un stratagème afin de récupérer la dague prodigieuse. Vous pourriez ramasser une pierre et essayer de fendre le crâne de la bête ou vous cacher et attendre que le poison fasse effet.",
     "actions": [{
       "answer": "ATTAQUER",
-      "goto": "/loose6"
+      "loose": "loose5"
     }, {
       "answer": "SE CACHER",
       "goto": 20
     }]
   }, {
     "id": 20,
-    "img": "assets/pictures/backgroundForest.jpg",
-    "message": "Loin d’être lâche, se cacher était une excellente idéé ! Vous patientez attendant une opportunité d’attaquer et celle-ci se présente rapidement à vous. Méduse vous tourne le dos. Vous en profitez pour lui lancer votre dague. La créature s’effondre et meurt sur le coup ! Vous pouvez enfin vous approcher d’elle. Après avoir récupéré votre arme, vous lui tranchez la tête. Selon la légende, même morte, les pouvoirs de Méduse restent intacts. Sa tête vous sera utile pour vaincre vos ennemis !",
+    "img": cave,
+    "message": "Au bout de quelques heures, votre stratagème paye enfin ! Le griffon a succombé à sa blessure. Vous récupérez la dague tant convoitée ! Il est temps de continuer votre voyage vers Athènes.",
     "actions": [{
-      "answer": "Reprendre la route",
+      "answer": "REPRENDRE LA ROUTE",
       "goto": 21
     }]
   }, {
     "id": 21,
-    "img": "assets/pictures/backgroundForest.jpg",
-    "message": "Vous arrivez enfin à Athènes ! La ville est majestueuse et pleine de beauté. Depuis l’extérieur de la ville, vous apercevez l’Acropole. Votre destination finale est au sommet de cette colline ; elle abrite le Parthénon et l’olivier sacré  !  Mais la ville est encore très fréquenter, qu'allez vous faire ?",
-    "actions": [{
-      "answer": "ENTRER",
-      "goto": "/loose7"
-    }, {
-      "answer": "ATTENDRE",
-      "goto": 22
-    }]
-  }, {
-    "id": 22,
-    "img": "assets/pictures/backgroundForest.jpg",
-    "message": "Après avoir attendu jusqu’au soir, vous pénétrez enfin discrètement dans la cité. Il n’y a plus grand-monde dans les rues et vous arrivez sans peine jusqu’à l’Acropole. Devant vous se dresse l’imposant temple d’Athéna, mais vous ne vous attardez pas devant cette prouesse architecturale, votre cible est si proche !",
+    "img": forest,
+    "message": "Quelques jours plus tard, alors que vous poursuiviez votre route, le  paysage change. Des statues jonchent une forêt terriblement silencieuse... Tout semble plus sombre tout à coup. Vous dégainez votre dague, à l’affût de tout danger ! Soudain, vous apercevez une créature qui surgit des ténèbres.",
     "actions": [{
       "answer": "CONTINUER",
       "goto": 23
     }]
   }, {
-    "id": 23,
-    "img": "assets/pictures/backgroundForest.jpg",
-    "message": "Alors que vous approchez de l’olivier sacré, des gardes vous barrent la route. Prévenu par Athéna de votre arrivée, ils ont ordre de vous arrêter.",
+    "id": 22,
+    "img": forest,
+    "message": "Quelques jours plus tard, alors que vous poursuiviez votre route, le  paysage change. Des statues jonchent une forêt terriblement silencieuse... Vous entendez des bruits inquiétants tout autour de vous et apercevez alors Méduse... mais vous n’avez aucune arme pour vous défendre !",
     "actions": [{
-      "answer": "LA DAGUE EMPOISONNÉE",
-      "goto": "/loose8"
+      "answer": "ATTAQUER",
+      "loose": "loose6"
     }, {
-      "answer": "LA TÊTE DE MÉDUSE",
+      "answer": "SE CACHER",
+      "loose": "loose6"
+    }]
+  }, {
+    "id": 23,
+    "img": forest,
+    "message": "C’est Méduse ! Vous avez beaucoup entendu parler de ce monstre et vous connaissez son pouvoir. Vaincre cette créature ferait de vous un héros légendaire ! Vous pourriez  attaquer mais il  serait peut être plus sage d'attendre...",
+    "actions": [{
+      "answer": "ATTAQUER",
+      "loose": "loose6"
+    }, {
+      "answer": "SE CACHER",
       "goto": 24
     }]
   }, {
     "id": 24,
-    "img": "assets/pictures/backgroundAthene.jpg",
-    "message": "Vous brandissez la tête de Méduse devant vous et pétrifiez les gardes, complètement impuissants ! La voie est libre et vous voilà devant l’olivier. Poséidon vous a ordonné de l’empoisonner parce que c’est le symbole de la victoire d’Athéna.",
+    "img": forest,
+    "message": "Loin d’être lâche, se cacher était une excellente idéé ! Vous patientez attendant une opportunité d’attaquer et celle-ci se présente rapidement à vous. Méduse vous tourne le dos. Vous en profitez pour lui lancer votre dague. La créature s’effondre et meurt sur le coup ! Vous pouvez enfin vous approcher d’elle. Après avoir récupéré votre arme, vous lui tranchez la tête. Selon la légende, même morte, les pouvoirs de Méduse restent intacts. Sa tête vous sera utile pour vaincre vos ennemis !",
     "actions": [{
-      "answer": "TERMINER VOTRE QUÊTE",
+      "answer": "REPRENDRE LA ROUTE",
       "goto": 25
     }]
   }, {
     "id": 25,
-    "img": "assets/pictures/backgroundAthene.jpg",
-    "message": " A propos de poison, vous avez bien fait de venger Nestor ! Son arme est exactement ce qu’il vous faut. Vous la plantez dans les racines et l’effet semble étonnement rapide. Les branches s’affaissent, les feuilles fanent.",
+    "img": athene,
+    "message": "Vous arrivez enfin à Athènes ! La ville est majestueuse et pleine de beauté. Depuis l’extérieur de la ville, vous apercevez l’Acropole. Votre destination finale est au sommet de cette colline ; elle abrite le Parthénon et l’olivier sacré  !  Mais la ville est encore très fréquenter, qu'allez vous faire ?",
     "actions": [{
-      "answer": "CONTINUER",
+      "answer": "ENTRER",
+      "loose": "loose7"
+    }, {
+      "answer": "ATTENDRE",
       "goto": 26
     }]
   }, {
     "id": 26,
-    "img": "assets/pictures/backgroundAtheneNight.jpg",
-    "message": "Très vite, comme si une sorte d’alerte avait été donnée, les Athéniens sortent de leurs demeures, désemparés par votre acte ! Comment vont-ils vivre sans la bénédiction d’Athéna ? Fous de colère, ils se ruent vers l’Acropole mais sont arrêtés par l’apparition soudaine de Poséidon. Poséïdon vous félicite pour votre bravoure et promet aux Athéniens de les protéger.",
+    "img": night,
+    "message": "Après avoir attendu jusqu’au soir, vous pénétrez enfin discrètement dans la cité. Il n’y a plus grand-monde dans les rues et vous arrivez sans peine jusqu’à l’Acropole. Devant vous se dresse l’imposant temple d’Athéna, mais vous ne vous attardez pas devant cette prouesse architecturale, votre cible est si proche !",
     "actions": [{
-      "answer": "ECOUTER",
+      "answer": "CONTINUER",
       "goto": 27
     }]
   }, {
     "id": 27,
-    "img": "assets/pictures/backgroundAtheneNight.jpg",
+    "img": night,
+    "message": "Alors que vous approchez de l’olivier sacré, des gardes vous barrent la route. Prévenu par Athéna de votre arrivée, ils ont ordre de vous arrêter.",
+    "actions": [{
+      "answer": "LA DAGUE EMPOISONNÉE",
+      "loose": "loose8"
+    }, {
+      "answer": "LA TÊTE DE MÉDUSE",
+      "goto": 28
+    }]
+  }, {
+    "id": 28,
+    "img": night,
+    "message": "Vous brandissez la tête de Méduse devant vous et pétrifiez les gardes, complètement impuissants ! La voie est libre et vous voilà devant l’olivier. Poséidon vous a ordonné de l’empoisonner parce que c’est le symbole de la victoire d’Athéna.",
+    "actions": [{
+      "answer": "TERMINER VOTRE QUÊTE",
+      "goto": 29
+    }]
+  }, {
+    "id": 29,
+    "img": night,
+    "message": " A propos de poison, vous avez bien fait de venger Nestor ! Son arme est exactement ce qu’il vous faut. Vous la plantez dans les racines et l’effet semble étonnement rapide. Les branches s’affaissent, les feuilles fanent.",
+    "actions": [{
+      "answer": "CONTINUER",
+      "goto": 30
+    }]
+  }, {
+    "id": 30,
+    "img": night,
+    "message": "Très vite, comme si une sorte d’alerte avait été donnée, les Athéniens sortent de leurs demeures, désemparés par votre acte ! Comment vont-ils vivre sans la bénédiction d’Athéna ? Fous de colère, ils se ruent vers l’Acropole mais sont arrêtés par l’apparition soudaine de Poséidon. Poséïdon vous félicite pour votre bravoure et promet aux Athéniens de les protéger.",
+    "actions": [{
+      "answer": "ECOUTER",
+      "goto": 31
+    }]
+  }, {
+    "id": 31,
+    "img": night,
     "message": "Les dieux savent tenir leurs promesses et Poséidon ne fait pas exception à la règle. Il vous laisse même le choix entre deux présents. Sa bénédiction vous permettra de naviguer librement sur tous les océans tout en vous assurant une victoire dans chacune de vos batailles navales. Sa seconde proposition est une arme, un trident pour être exact. Forgé pour Poséidon en personne, il a pour caractéristique de ne jamais manquer sa cible. Qu'allez vous choisir ?",
     "actions": [{
       "answer": "BÉNÉDICTION",
@@ -15425,7 +15501,7 @@ var _default = {
   }]
 };
 exports.default = _default;
-},{"./assets/pictures/backgroundCity.jpg":"assets/pictures/backgroundCity.jpg"}],"components/Game.vue":[function(require,module,exports) {
+},{"./assets/pictures/backgroundCity.jpg":"assets/pictures/backgroundCity.jpg","./assets/pictures/backgroundHarbour.jpg":"assets/pictures/backgroundHarbour.jpg","./assets/pictures/backgroundSea.jpg":"assets/pictures/backgroundSea.jpg","./assets/pictures/backgroundPoseidon.jpg":"assets/pictures/backgroundPoseidon.jpg","./assets/pictures/backgroundStorm.jpg":"assets/pictures/backgroundStorm.jpg","./assets/pictures/backgroundHostel.jpg":"assets/pictures/backgroundHostel.jpg","./assets/pictures/backgroundMarket.jpg":"assets/pictures/backgroundMarket.jpg","./assets/pictures/backgroundOldman.jpg":"assets/pictures/backgroundOldman.jpg","./assets/pictures/backgroundCave.jpg":"assets/pictures/backgroundCave.jpg","./assets/pictures/backgroundForest.jpg":"assets/pictures/backgroundForest.jpg","./assets/pictures/backgroundAthene.jpg":"assets/pictures/backgroundAthene.jpg","./assets/pictures/backgroundAtheneNight.jpg":"assets/pictures/backgroundAtheneNight.jpg"}],"components/Game.vue":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -15462,7 +15538,30 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //
 //
 //
-// changer json en js si j'utilise data.js
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 // import characterService from '../';
 var _default = {
   /*data() {
@@ -15494,7 +15593,10 @@ var _default = {
       if (action.loose) {
         this.$router.push({
           name: 'loose1'
+        } || {
+          name: 'loose2'
         });
+        /*|| this.$router.push({name: 'loose3'}) || this.$router.push({name: 'loose4'}) || this.$router.push({name: 'loose5'}) || this.$router.push({name: 'loose6'}) || this.$router.push({name: 'loose7'}) || this.$router.push({name: 'loose8'})*/
       } else {
         this.$router.push({
           name: 'game',
@@ -15508,14 +15610,14 @@ var _default = {
   }
 };
 exports.default = _default;
-        var $a60f73 = exports.default || module.exports;
+        var $43e86b = exports.default || module.exports;
       
-      if (typeof $a60f73 === 'function') {
-        $a60f73 = $a60f73.options;
+      if (typeof $43e86b === 'function') {
+        $43e86b = $43e86b.options;
       }
     
         /* template */
-        Object.assign($a60f73, (function () {
+        Object.assign($43e86b, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -15523,16 +15625,18 @@ exports.default = _default;
   return _c(
     "div",
     {
-      staticClass: "game qsdsq",
+      staticClass: "game",
       style: { "background-image": "url(" + _vm.step.img + ")" }
     },
     [
-      _c(
-        "div",
-        { staticClass: "game__text" },
-        [
-          _c("h1", [_vm._v(" " + _vm._s(_vm.step.message) + " ")]),
-          _vm._v(" "),
+      _c("div", { staticClass: "game__text" }, [
+        _c("h1", { staticClass: "game__title" }, [
+          _vm._v(_vm._s(_vm.step.message))
+        ]),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "game__buttons" },
           _vm._l(_vm.step.actions, function(action, index) {
             return _c(
               "a",
@@ -15549,10 +15653,10 @@ exports.default = _default;
               },
               [_vm._v(" " + _vm._s(action.answer) + " ")]
             )
-          })
-        ],
-        2
-      )
+          }),
+          0
+        )
+      ])
     ]
   )
 }
@@ -15576,9 +15680,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$a60f73', $a60f73);
+            api.createRecord('$43e86b', $43e86b);
           } else {
-            api.reload('$a60f73', $a60f73);
+            api.reload('$43e86b', $43e86b);
           }
         }
 
@@ -15603,6 +15707,7 @@ exports.default = void 0;
 //
 //
 //
+//
 var _default = {
   data: function data() {
     return {
@@ -15611,22 +15716,23 @@ var _default = {
   }
 };
 exports.default = _default;
-        var $4ea24b = exports.default || module.exports;
+        var $d5b02a = exports.default || module.exports;
       
-      if (typeof $4ea24b === 'function') {
-        $4ea24b = $4ea24b.options;
+      if (typeof $d5b02a === 'function') {
+        $d5b02a = $d5b02a.options;
       }
     
         /* template */
-        Object.assign($4ea24b, (function () {
+        Object.assign($d5b02a, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c(
     "div",
+    { staticClass: "loose1" },
     [
-      _c("h1", [_vm._v(" " + _vm._s(_vm.message) + " ")]),
+      _c("h1", { staticClass: "loose1__title" }, [_vm._v(_vm._s(_vm.message))]),
       _vm._v(" "),
       _c("router-link", { staticClass: "button", attrs: { to: "/" } }, [
         _vm._v("Recommencer la partie")
@@ -15655,9 +15761,555 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$4ea24b', $4ea24b);
+            api.createRecord('$d5b02a', $d5b02a);
           } else {
-            api.reload('$4ea24b', $4ea24b);
+            api.reload('$d5b02a', $d5b02a);
+          }
+        }
+
+        
+      }
+    })();
+},{"vue-hot-reload-api":"../node_modules/vue-hot-reload-api/dist/index.js","vue":"../node_modules/vue/dist/vue.common.js"}],"components/Loose/loose2.vue":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+//
+//
+//
+//
+//
+//
+//
+var _default = {
+  data: function data() {
+    return {
+      message: "Poséidon, fou de rage face à votre refus, déchaîne les mers et une énorme tempête éclate. Malheureusement votre vieux raffiot n’est pas de taille face à cette tempête ! Malgré tous vos efforts, votre bateau sombre dans la mer..."
+    };
+  }
+};
+exports.default = _default;
+        var $4b2ea2 = exports.default || module.exports;
+      
+      if (typeof $4b2ea2 === 'function') {
+        $4b2ea2 = $4b2ea2.options;
+      }
+    
+        /* template */
+        Object.assign($4b2ea2, (function () {
+          var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "loose2" },
+    [
+      _c("h1", { staticClass: "loose2__title" }, [
+        _vm._v(" " + _vm._s(_vm.message) + " ")
+      ]),
+      _vm._v(" "),
+      _c("router-link", { staticClass: "button", attrs: { to: "/" } }, [
+        _vm._v("Recommencer la partie")
+      ])
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+          return {
+            render: render,
+            staticRenderFns: staticRenderFns,
+            _compiled: true,
+            _scopeId: null,
+            functional: undefined
+          };
+        })());
+      
+    /* hot reload */
+    (function () {
+      if (module.hot) {
+        var api = require('vue-hot-reload-api');
+        api.install(require('vue'));
+        if (api.compatible) {
+          module.hot.accept();
+          if (!module.hot.data) {
+            api.createRecord('$4b2ea2', $4b2ea2);
+          } else {
+            api.reload('$4b2ea2', $4b2ea2);
+          }
+        }
+
+        
+      }
+    })();
+},{"vue-hot-reload-api":"../node_modules/vue-hot-reload-api/dist/index.js","vue":"../node_modules/vue/dist/vue.common.js"}],"components/Loose/loose3.vue":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+//
+//
+//
+//
+//
+//
+//
+var _default = {
+  data: function data() {
+    return {
+      message: "Vous aviez tout d’une proie facile et les bandits de grand chemin qui passaient par là ont su en tirer profit ! Après vous avoir tué dans votre sommeil, ils vous ont dépouillé et se sont enfuis avec vos biens."
+    };
+  }
+};
+exports.default = _default;
+        var $be272e = exports.default || module.exports;
+      
+      if (typeof $be272e === 'function') {
+        $be272e = $be272e.options;
+      }
+    
+        /* template */
+        Object.assign($be272e, (function () {
+          var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "loose3" },
+    [
+      _c("h1", { staticClass: "loose3__title" }, [
+        _vm._v(" " + _vm._s(_vm.message) + " ")
+      ]),
+      _vm._v(" "),
+      _c("router-link", { staticClass: "button", attrs: { to: "/" } }, [
+        _vm._v("Recommencer la partie")
+      ])
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+          return {
+            render: render,
+            staticRenderFns: staticRenderFns,
+            _compiled: true,
+            _scopeId: null,
+            functional: undefined
+          };
+        })());
+      
+    /* hot reload */
+    (function () {
+      if (module.hot) {
+        var api = require('vue-hot-reload-api');
+        api.install(require('vue'));
+        if (api.compatible) {
+          module.hot.accept();
+          if (!module.hot.data) {
+            api.createRecord('$be272e', $be272e);
+          } else {
+            api.reload('$be272e', $be272e);
+          }
+        }
+
+        
+      }
+    })();
+},{"vue-hot-reload-api":"../node_modules/vue-hot-reload-api/dist/index.js","vue":"../node_modules/vue/dist/vue.common.js"}],"components/Loose/loose4.vue":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+//
+//
+//
+//
+//
+//
+//
+var _default = {
+  data: function data() {
+    return {
+      message: "Le vendeur vous voit et lance les habitants à votre trousse ! Vous finissez l’aventure en prison..."
+    };
+  }
+};
+exports.default = _default;
+        var $2801f1 = exports.default || module.exports;
+      
+      if (typeof $2801f1 === 'function') {
+        $2801f1 = $2801f1.options;
+      }
+    
+        /* template */
+        Object.assign($2801f1, (function () {
+          var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "loose4" },
+    [
+      _c("h1", { staticClass: "loose4__title" }, [
+        _vm._v(" " + _vm._s(_vm.message) + " ")
+      ]),
+      _vm._v(" "),
+      _c("router-link", { staticClass: "button", attrs: { to: "/" } }, [
+        _vm._v("Recommencer la partie")
+      ])
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+          return {
+            render: render,
+            staticRenderFns: staticRenderFns,
+            _compiled: true,
+            _scopeId: null,
+            functional: undefined
+          };
+        })());
+      
+    /* hot reload */
+    (function () {
+      if (module.hot) {
+        var api = require('vue-hot-reload-api');
+        api.install(require('vue'));
+        if (api.compatible) {
+          module.hot.accept();
+          if (!module.hot.data) {
+            api.createRecord('$2801f1', $2801f1);
+          } else {
+            api.reload('$2801f1', $2801f1);
+          }
+        }
+
+        
+      }
+    })();
+},{"vue-hot-reload-api":"../node_modules/vue-hot-reload-api/dist/index.js","vue":"../node_modules/vue/dist/vue.common.js"}],"components/Loose/loose5.vue":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+//
+//
+//
+//
+//
+//
+//
+var _default = {
+  data: function data() {
+    return {
+      message: "Malgré sa blessure, la bête est plus rapide que vous ! Elle esquive et vous attaque. Vous n’avez aucune arme pour vous défendre, elle n’a donc aucune difficulté à vous blesser mortellement."
+    };
+  }
+};
+exports.default = _default;
+        var $0169f6 = exports.default || module.exports;
+      
+      if (typeof $0169f6 === 'function') {
+        $0169f6 = $0169f6.options;
+      }
+    
+        /* template */
+        Object.assign($0169f6, (function () {
+          var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "loose5" },
+    [
+      _c("h1", { staticClass: "loose5__title" }, [
+        _vm._v(" " + _vm._s(_vm.message) + " ")
+      ]),
+      _vm._v(" "),
+      _c("router-link", { staticClass: "button", attrs: { to: "/" } }, [
+        _vm._v("Recommencer la partie")
+      ])
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+          return {
+            render: render,
+            staticRenderFns: staticRenderFns,
+            _compiled: true,
+            _scopeId: null,
+            functional: undefined
+          };
+        })());
+      
+    /* hot reload */
+    (function () {
+      if (module.hot) {
+        var api = require('vue-hot-reload-api');
+        api.install(require('vue'));
+        if (api.compatible) {
+          module.hot.accept();
+          if (!module.hot.data) {
+            api.createRecord('$0169f6', $0169f6);
+          } else {
+            api.reload('$0169f6', $0169f6);
+          }
+        }
+
+        
+      }
+    })();
+},{"vue-hot-reload-api":"../node_modules/vue-hot-reload-api/dist/index.js","vue":"../node_modules/vue/dist/vue.common.js"}],"components/Loose/loose6.vue":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+//
+//
+//
+//
+//
+//
+//
+var _default = {
+  data: function data() {
+    return {
+      message: "Vous pensiez sincèrement vous en sortir ainsi ? Méduse, la célèbre et redoutée gorgone n’est en tout cas pas de cet avis. Vous avez osé vous rendre sur son territoire et elle ne le tolérera pas ! D’un simple regard, Méduse vous pétrifie. Vous rejoignez ainsi sa collection de statues."
+    };
+  }
+};
+exports.default = _default;
+        var $ab1b8d = exports.default || module.exports;
+      
+      if (typeof $ab1b8d === 'function') {
+        $ab1b8d = $ab1b8d.options;
+      }
+    
+        /* template */
+        Object.assign($ab1b8d, (function () {
+          var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "loose6" },
+    [
+      _c("h1", { staticClass: "loose6__title" }, [
+        _vm._v(" " + _vm._s(_vm.message) + " ")
+      ]),
+      _vm._v(" "),
+      _c("router-link", { staticClass: "button", attrs: { to: "/" } }, [
+        _vm._v("Recommencer la partie")
+      ])
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+          return {
+            render: render,
+            staticRenderFns: staticRenderFns,
+            _compiled: true,
+            _scopeId: null,
+            functional: undefined
+          };
+        })());
+      
+    /* hot reload */
+    (function () {
+      if (module.hot) {
+        var api = require('vue-hot-reload-api');
+        api.install(require('vue'));
+        if (api.compatible) {
+          module.hot.accept();
+          if (!module.hot.data) {
+            api.createRecord('$ab1b8d', $ab1b8d);
+          } else {
+            api.reload('$ab1b8d', $ab1b8d);
+          }
+        }
+
+        
+      }
+    })();
+},{"vue-hot-reload-api":"../node_modules/vue-hot-reload-api/dist/index.js","vue":"../node_modules/vue/dist/vue.common.js"}],"components/Loose/loose7.vue":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+//
+//
+//
+//
+//
+//
+//
+var _default = {
+  data: function data() {
+    return {
+      message: "La tête de Méduse que vous transportez pétrifie de pauvres innocents sur votre passage. D’autres Athéniens s’enfuient en courant et alertent les soldats ! Vous êtes capturé par la garde et éxécuté le lendemain..."
+    };
+  }
+};
+exports.default = _default;
+        var $4b05a3 = exports.default || module.exports;
+      
+      if (typeof $4b05a3 === 'function') {
+        $4b05a3 = $4b05a3.options;
+      }
+    
+        /* template */
+        Object.assign($4b05a3, (function () {
+          var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "loose7" },
+    [
+      _c("h1", { staticClass: "loose7__title" }, [
+        _vm._v(" " + _vm._s(_vm.message) + " ")
+      ]),
+      _vm._v(" "),
+      _c("router-link", { staticClass: "button", attrs: { to: "/" } }, [
+        _vm._v("Recommencer la partie")
+      ])
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+          return {
+            render: render,
+            staticRenderFns: staticRenderFns,
+            _compiled: true,
+            _scopeId: null,
+            functional: undefined
+          };
+        })());
+      
+    /* hot reload */
+    (function () {
+      if (module.hot) {
+        var api = require('vue-hot-reload-api');
+        api.install(require('vue'));
+        if (api.compatible) {
+          module.hot.accept();
+          if (!module.hot.data) {
+            api.createRecord('$4b05a3', $4b05a3);
+          } else {
+            api.reload('$4b05a3', $4b05a3);
+          }
+        }
+
+        
+      }
+    })();
+},{"vue-hot-reload-api":"../node_modules/vue-hot-reload-api/dist/index.js","vue":"../node_modules/vue/dist/vue.common.js"}],"components/Loose/loose8.vue":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+//
+//
+//
+//
+//
+//
+//
+var _default = {
+  data: function data() {
+    return {
+      message: "Vous êtes rapidement dépassé par le nombre et vous mourez dans l’affrontement. Dommage, si près du but... "
+    };
+  }
+};
+exports.default = _default;
+        var $96ad12 = exports.default || module.exports;
+      
+      if (typeof $96ad12 === 'function') {
+        $96ad12 = $96ad12.options;
+      }
+    
+        /* template */
+        Object.assign($96ad12, (function () {
+          var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "loose8" },
+    [
+      _c("h1", { staticClass: "loose8__title" }, [
+        _vm._v(" " + _vm._s(_vm.message) + " ")
+      ]),
+      _vm._v(" "),
+      _c("router-link", { staticClass: "button", attrs: { to: "/" } }, [
+        _vm._v("Recommencer la partie")
+      ])
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+          return {
+            render: render,
+            staticRenderFns: staticRenderFns,
+            _compiled: true,
+            _scopeId: null,
+            functional: undefined
+          };
+        })());
+      
+    /* hot reload */
+    (function () {
+      if (module.hot) {
+        var api = require('vue-hot-reload-api');
+        api.install(require('vue'));
+        if (api.compatible) {
+          module.hot.accept();
+          if (!module.hot.data) {
+            api.createRecord('$96ad12', $96ad12);
+          } else {
+            api.reload('$96ad12', $96ad12);
           }
         }
 
@@ -15666,14 +16318,14 @@ render._withStripped = true
     })();
 },{"vue-hot-reload-api":"../node_modules/vue-hot-reload-api/dist/index.js","vue":"../node_modules/vue/dist/vue.common.js"}],"components/win.vue":[function(require,module,exports) {
 
-        var $e54f9f = exports.default || module.exports;
+        var $47da79 = exports.default || module.exports;
       
-      if (typeof $e54f9f === 'function') {
-        $e54f9f = $e54f9f.options;
+      if (typeof $47da79 === 'function') {
+        $47da79 = $47da79.options;
       }
     
         /* template */
-        Object.assign($e54f9f, (function () {
+        Object.assign($47da79, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -15710,9 +16362,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$e54f9f', $e54f9f);
+            api.createRecord('$47da79', $47da79);
           } else {
-            api.reload('$e54f9f', $e54f9f);
+            api.reload('$47da79', $47da79);
           }
         }
 
@@ -15737,6 +16389,20 @@ var _Game = _interopRequireDefault(require("./components/Game.vue"));
 
 var _loose = _interopRequireDefault(require("./components/Loose/loose1.vue"));
 
+var _loose2 = _interopRequireDefault(require("./components/Loose/loose2.vue"));
+
+var _loose3 = _interopRequireDefault(require("./components/Loose/loose3.vue"));
+
+var _loose4 = _interopRequireDefault(require("./components/Loose/loose4.vue"));
+
+var _loose5 = _interopRequireDefault(require("./components/Loose/loose5.vue"));
+
+var _loose6 = _interopRequireDefault(require("./components/Loose/loose6.vue"));
+
+var _loose7 = _interopRequireDefault(require("./components/Loose/loose7.vue"));
+
+var _loose8 = _interopRequireDefault(require("./components/Loose/loose8.vue"));
+
 var _win = _interopRequireDefault(require("./components/win.vue"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -15759,6 +16425,34 @@ var router = new _vueRouter.default({
     name: 'loose1',
     component: _loose.default
   }, {
+    path: '/loose2',
+    name: 'loose2',
+    component: _loose2.default
+  }, {
+    path: '/loose3',
+    name: 'loose3',
+    component: _loose3.default
+  }, {
+    path: '/loose4',
+    name: 'loose4',
+    component: _loose4.default
+  }, {
+    path: '/loose5',
+    name: 'loose5',
+    component: _loose5.default
+  }, {
+    path: '/loose6',
+    name: 'loose6',
+    component: _loose6.default
+  }, {
+    path: '/loose7',
+    name: 'loose7',
+    component: _loose7.default
+  }, {
+    path: '/loose8',
+    name: 'loose8',
+    component: _loose8.default
+  }, {
     path: '/win',
     name: 'win',
     component: _win.default
@@ -15771,7 +16465,7 @@ var router = new _vueRouter.default({
 });
 var _default = router;
 exports.default = _default;
-},{"vue":"../node_modules/vue/dist/vue.common.js","vue-router":"../node_modules/vue-router/dist/vue-router.esm.js","./components/Home/Home.vue":"components/Home/Home.vue","./components/Game.vue":"components/Game.vue","./components/Loose/loose1.vue":"components/Loose/loose1.vue","./components/win.vue":"components/win.vue"}],"app.js":[function(require,module,exports) {
+},{"vue":"../node_modules/vue/dist/vue.common.js","vue-router":"../node_modules/vue-router/dist/vue-router.esm.js","./components/Home/Home.vue":"components/Home/Home.vue","./components/Game.vue":"components/Game.vue","./components/Loose/loose1.vue":"components/Loose/loose1.vue","./components/Loose/loose2.vue":"components/Loose/loose2.vue","./components/Loose/loose3.vue":"components/Loose/loose3.vue","./components/Loose/loose4.vue":"components/Loose/loose4.vue","./components/Loose/loose5.vue":"components/Loose/loose5.vue","./components/Loose/loose6.vue":"components/Loose/loose6.vue","./components/Loose/loose7.vue":"components/Loose/loose7.vue","./components/Loose/loose8.vue":"components/Loose/loose8.vue","./components/win.vue":"components/win.vue"}],"app.js":[function(require,module,exports) {
 "use strict";
 
 require("./assets/scss/styles.scss");
@@ -15813,7 +16507,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49957" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60396" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

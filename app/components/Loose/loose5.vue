@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h1> {{ message }} </h1>
+  <div class="loose5"> 
+    <h1 class="loose5__title"> {{ message }} </h1>
     <router-link class="button" to="/">Recommencer la partie</router-link>
   </div>
 </template>
@@ -11,7 +11,7 @@
 export default {
   data() {
     return {
-      message: "Vous pensiez sincèrement vous en sortir ainsi ? Méduse, la célèbre et redoutée gorgone n’est en tout cas pas de cet avis. Vous avez osé vous rendre sur son territoire et elle ne le tolérera pas ! D’un simple regard, Méduse vous pétrifie. Vous rejoignez ainsi sa collection de statues.",
+      message: "Malgré sa blessure, la bête est plus rapide que vous ! Elle esquive et vous attaque. Vous n’avez aucune arme pour vous défendre, elle n’a donc aucune difficulté à vous blesser mortellement.",
     };
   },
 }

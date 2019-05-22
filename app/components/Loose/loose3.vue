@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h1> {{ message }} </h1>
+  <div class="loose3">
+    <h1 class="loose3__title"> {{ message }} </h1>
     <router-link class="button" to="/">Recommencer la partie</router-link>
   </div>
 </template>

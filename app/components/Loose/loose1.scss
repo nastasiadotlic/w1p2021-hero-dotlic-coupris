@@ -1,0 +1,18 @@
+.loose1 {
+  height: 100vh;
+  background-image: url('../../assets/pictures/backgroundLoose1.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.loose1__title {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.418);
+  padding: 40px;
+  border-radius: 20px;
+  line-height: 40px;
+}

@@ -6,7 +6,7 @@
         <a href="#" v-for="(action, index) in step.actions" class="button" :key="index" @click.prevent="choiceSelected(action)" > {{ action.answer }} </a>
       </div>
     </div>
-    <!--<audio controls src="/assets/audio/greekSoundtrack.mp3" autoplay></audio>-->
+    <!--<audio controls src="/assets/audio/greekSoundtrack.mp3" autoplay loop></audio>-->
   </div>
 </template>
 
@@ -79,7 +79,7 @@ export default {
       //message.replace('{name}', name);
 
       if (action.loose) {
-        this.$router.push({name: 'loose1'} || {name:'loose2'}) /*|| this.$router.push({name: 'loose3'}) || this.$router.push({name: 'loose4'}) || this.$router.push({name: 'loose5'}) || this.$router.push({name: 'loose6'}) || this.$router.push({name: 'loose7'}) || this.$router.push({name: 'loose8'})*/
+        this.$router.push({name: action.loose})
       } else {
         this.$router.push({name: 'game', params: {id: action.goto}})
       } 

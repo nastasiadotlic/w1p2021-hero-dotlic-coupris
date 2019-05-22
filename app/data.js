@@ -417,11 +417,11 @@ export default {
       "actions": [
         {
           "answer": "BÉNÉDICTION",
-          "goto": "/win"
+          "goto": "win"
         },
         {
           "answer": "ARME",
-          "goto": "/win"
+          "goto": "win"
         }
       ]
     }

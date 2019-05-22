@@ -191,7 +191,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../pictures/backgroundCity.jpg":[["backgroundCity.fdaae1fc.jpg","assets/pictures/backgroundCity.jpg"],"assets/pictures/backgroundCity.jpg"],"./../fonts/Quattrocento-Regular.ttf":[["Quattrocento-Regular.68bdbae7.ttf","assets/fonts/Quattrocento-Regular.ttf"],"assets/fonts/Quattrocento-Regular.ttf"],"./../fonts/Quattrocento-Bold.ttf":[["Quattrocento-Bold.2e6e171c.ttf","assets/fonts/Quattrocento-Bold.ttf"],"assets/fonts/Quattrocento-Bold.ttf"],"./../pictures/backgroundLoose1.jpg":[["backgroundLoose1.41e360e3.jpg","assets/pictures/backgroundLoose1.jpg"],"assets/pictures/backgroundLoose1.jpg"],"./../pictures/backgroundLoose2.jpg":[["backgroundLoose2.da8f0c1d.jpg","assets/pictures/backgroundLoose2.jpg"],"assets/pictures/backgroundLoose2.jpg"],"./../pictures/backgroundLoose3.jpg":[["backgroundLoose3.3f8f6607.jpg","assets/pictures/backgroundLoose3.jpg"],"assets/pictures/backgroundLoose3.jpg"],"./../pictures/backgroundLoose4.jpg":[["backgroundLoose4.e40a53b3.jpg","assets/pictures/backgroundLoose4.jpg"],"assets/pictures/backgroundLoose4.jpg"],"./../pictures/backgroundLoose5.jpg":[["backgroundLoose5.551a933a.jpg","assets/pictures/backgroundLoose5.jpg"],"assets/pictures/backgroundLoose5.jpg"],"./../pictures/backgroundLoose6.jpg":[["backgroundLoose6.524c38ae.jpg","assets/pictures/backgroundLoose6.jpg"],"assets/pictures/backgroundLoose6.jpg"],"./../pictures/backgroundLoose7.jpg":[["backgroundLoose7.90b77e99.jpg","assets/pictures/backgroundLoose7.jpg"],"assets/pictures/backgroundLoose7.jpg"],"./../pictures/backgroundLoose8.jpg":[["backgroundLoose8.5dd04cf1.jpg","assets/pictures/backgroundLoose8.jpg"],"assets/pictures/backgroundLoose8.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/vue/dist/vue.common.dev.js":[function(require,module,exports) {
+},{"./../pictures/backgroundCity.jpg":[["backgroundCity.fdaae1fc.jpg","assets/pictures/backgroundCity.jpg"],"assets/pictures/backgroundCity.jpg"],"./../fonts/Quattrocento-Regular.ttf":[["Quattrocento-Regular.68bdbae7.ttf","assets/fonts/Quattrocento-Regular.ttf"],"assets/fonts/Quattrocento-Regular.ttf"],"./../fonts/Quattrocento-Bold.ttf":[["Quattrocento-Bold.2e6e171c.ttf","assets/fonts/Quattrocento-Bold.ttf"],"assets/fonts/Quattrocento-Bold.ttf"],"./../pictures/backgroundLoose1.jpg":[["backgroundLoose1.41e360e3.jpg","assets/pictures/backgroundLoose1.jpg"],"assets/pictures/backgroundLoose1.jpg"],"./../pictures/backgroundLoose2.jpg":[["backgroundLoose2.da8f0c1d.jpg","assets/pictures/backgroundLoose2.jpg"],"assets/pictures/backgroundLoose2.jpg"],"./../pictures/backgroundLoose3.jpg":[["backgroundLoose3.3f8f6607.jpg","assets/pictures/backgroundLoose3.jpg"],"assets/pictures/backgroundLoose3.jpg"],"./../pictures/backgroundLoose4.jpg":[["backgroundLoose4.e40a53b3.jpg","assets/pictures/backgroundLoose4.jpg"],"assets/pictures/backgroundLoose4.jpg"],"./../pictures/backgroundLoose5.jpg":[["backgroundLoose5.551a933a.jpg","assets/pictures/backgroundLoose5.jpg"],"assets/pictures/backgroundLoose5.jpg"],"./../pictures/backgroundLoose6.jpg":[["backgroundLoose6.524c38ae.jpg","assets/pictures/backgroundLoose6.jpg"],"assets/pictures/backgroundLoose6.jpg"],"./../pictures/backgroundLoose7.jpg":[["backgroundLoose7.90b77e99.jpg","assets/pictures/backgroundLoose7.jpg"],"assets/pictures/backgroundLoose7.jpg"],"./../pictures/backgroundLoose8.jpg":[["backgroundLoose8.5dd04cf1.jpg","assets/pictures/backgroundLoose8.jpg"],"assets/pictures/backgroundLoose8.jpg"],"./../pictures/backgroundWin.png":[["backgroundWin.e8374d36.png","assets/pictures/backgroundWin.png"],"assets/pictures/backgroundWin.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/vue/dist/vue.common.dev.js":[function(require,module,exports) {
 var global = arguments[3];
 /*!
  * Vue.js v2.6.10
@@ -15083,14 +15083,14 @@ var _default = {
   }
 };
 exports.default = _default;
-        var $e4b9a4 = exports.default || module.exports;
+        var $867bd6 = exports.default || module.exports;
       
-      if (typeof $e4b9a4 === 'function') {
-        $e4b9a4 = $e4b9a4.options;
+      if (typeof $867bd6 === 'function') {
+        $867bd6 = $867bd6.options;
       }
     
         /* template */
-        Object.assign($e4b9a4, (function () {
+        Object.assign($867bd6, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -15130,9 +15130,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$e4b9a4', $e4b9a4);
+            api.createRecord('$867bd6', $867bd6);
           } else {
-            api.reload('$e4b9a4', $e4b9a4);
+            api.reload('$867bd6', $867bd6);
           }
         }
 
@@ -15493,10 +15493,10 @@ var _default = {
     "message": "Les dieux savent tenir leurs promesses et Poséidon ne fait pas exception à la règle. Il vous laisse même le choix entre deux présents. Sa bénédiction vous permettra de naviguer librement sur tous les océans tout en vous assurant une victoire dans chacune de vos batailles navales. Sa seconde proposition est une arme, un trident pour être exact. Forgé pour Poséidon en personne, il a pour caractéristique de ne jamais manquer sa cible. Qu'allez vous choisir ?",
     "actions": [{
       "answer": "BÉNÉDICTION",
-      "goto": "/win"
+      "goto": "win"
     }, {
       "answer": "ARME",
-      "goto": "/win"
+      "goto": "win"
     }]
   }]
 };
@@ -15592,11 +15592,8 @@ var _default = {
       //message.replace('{name}', name);
       if (action.loose) {
         this.$router.push({
-          name: 'loose1'
-        } || {
-          name: 'loose2'
+          name: action.loose
         });
-        /*|| this.$router.push({name: 'loose3'}) || this.$router.push({name: 'loose4'}) || this.$router.push({name: 'loose5'}) || this.$router.push({name: 'loose6'}) || this.$router.push({name: 'loose7'}) || this.$router.push({name: 'loose8'})*/
       } else {
         this.$router.push({
           name: 'game',
@@ -15610,14 +15607,14 @@ var _default = {
   }
 };
 exports.default = _default;
-        var $a60f73 = exports.default || module.exports;
+        var $43e86b = exports.default || module.exports;
       
-      if (typeof $a60f73 === 'function') {
-        $a60f73 = $a60f73.options;
+      if (typeof $43e86b === 'function') {
+        $43e86b = $43e86b.options;
       }
     
         /* template */
-        Object.assign($a60f73, (function () {
+        Object.assign($43e86b, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -15680,9 +15677,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$a60f73', $a60f73);
+            api.createRecord('$43e86b', $43e86b);
           } else {
-            api.reload('$a60f73', $a60f73);
+            api.reload('$43e86b', $43e86b);
           }
         }
 
@@ -15716,14 +15713,14 @@ var _default = {
   }
 };
 exports.default = _default;
-        var $4ea24b = exports.default || module.exports;
+        var $d5b02a = exports.default || module.exports;
       
-      if (typeof $4ea24b === 'function') {
-        $4ea24b = $4ea24b.options;
+      if (typeof $d5b02a === 'function') {
+        $d5b02a = $d5b02a.options;
       }
     
         /* template */
-        Object.assign($4ea24b, (function () {
+        Object.assign($d5b02a, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -15761,9 +15758,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$4ea24b', $4ea24b);
+            api.createRecord('$d5b02a', $d5b02a);
           } else {
-            api.reload('$4ea24b', $4ea24b);
+            api.reload('$d5b02a', $d5b02a);
           }
         }
 
@@ -15792,14 +15789,14 @@ var _default = {
   }
 };
 exports.default = _default;
-        var $f3895f = exports.default || module.exports;
+        var $4b2ea2 = exports.default || module.exports;
       
-      if (typeof $f3895f === 'function') {
-        $f3895f = $f3895f.options;
+      if (typeof $4b2ea2 === 'function') {
+        $4b2ea2 = $4b2ea2.options;
       }
     
         /* template */
-        Object.assign($f3895f, (function () {
+        Object.assign($4b2ea2, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -15839,9 +15836,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$f3895f', $f3895f);
+            api.createRecord('$4b2ea2', $4b2ea2);
           } else {
-            api.reload('$f3895f', $f3895f);
+            api.reload('$4b2ea2', $4b2ea2);
           }
         }
 
@@ -15870,14 +15867,14 @@ var _default = {
   }
 };
 exports.default = _default;
-        var $fda6df = exports.default || module.exports;
+        var $be272e = exports.default || module.exports;
       
-      if (typeof $fda6df === 'function') {
-        $fda6df = $fda6df.options;
+      if (typeof $be272e === 'function') {
+        $be272e = $be272e.options;
       }
     
         /* template */
-        Object.assign($fda6df, (function () {
+        Object.assign($be272e, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -15917,9 +15914,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$fda6df', $fda6df);
+            api.createRecord('$be272e', $be272e);
           } else {
-            api.reload('$fda6df', $fda6df);
+            api.reload('$be272e', $be272e);
           }
         }
 
@@ -15948,14 +15945,14 @@ var _default = {
   }
 };
 exports.default = _default;
-        var $ff31b6 = exports.default || module.exports;
+        var $2801f1 = exports.default || module.exports;
       
-      if (typeof $ff31b6 === 'function') {
-        $ff31b6 = $ff31b6.options;
+      if (typeof $2801f1 === 'function') {
+        $2801f1 = $2801f1.options;
       }
     
         /* template */
-        Object.assign($ff31b6, (function () {
+        Object.assign($2801f1, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -15995,9 +15992,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$ff31b6', $ff31b6);
+            api.createRecord('$2801f1', $2801f1);
           } else {
-            api.reload('$ff31b6', $ff31b6);
+            api.reload('$2801f1', $2801f1);
           }
         }
 
@@ -16026,14 +16023,14 @@ var _default = {
   }
 };
 exports.default = _default;
-        var $7b387c = exports.default || module.exports;
+        var $0169f6 = exports.default || module.exports;
       
-      if (typeof $7b387c === 'function') {
-        $7b387c = $7b387c.options;
+      if (typeof $0169f6 === 'function') {
+        $0169f6 = $0169f6.options;
       }
     
         /* template */
-        Object.assign($7b387c, (function () {
+        Object.assign($0169f6, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -16073,9 +16070,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$7b387c', $7b387c);
+            api.createRecord('$0169f6', $0169f6);
           } else {
-            api.reload('$7b387c', $7b387c);
+            api.reload('$0169f6', $0169f6);
           }
         }
 
@@ -16104,14 +16101,14 @@ var _default = {
   }
 };
 exports.default = _default;
-        var $2863a7 = exports.default || module.exports;
+        var $ab1b8d = exports.default || module.exports;
       
-      if (typeof $2863a7 === 'function') {
-        $2863a7 = $2863a7.options;
+      if (typeof $ab1b8d === 'function') {
+        $ab1b8d = $ab1b8d.options;
       }
     
         /* template */
-        Object.assign($2863a7, (function () {
+        Object.assign($ab1b8d, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -16151,9 +16148,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$2863a7', $2863a7);
+            api.createRecord('$ab1b8d', $ab1b8d);
           } else {
-            api.reload('$2863a7', $2863a7);
+            api.reload('$ab1b8d', $ab1b8d);
           }
         }
 
@@ -16182,14 +16179,14 @@ var _default = {
   }
 };
 exports.default = _default;
-        var $fa40cc = exports.default || module.exports;
+        var $4b05a3 = exports.default || module.exports;
       
-      if (typeof $fa40cc === 'function') {
-        $fa40cc = $fa40cc.options;
+      if (typeof $4b05a3 === 'function') {
+        $4b05a3 = $4b05a3.options;
       }
     
         /* template */
-        Object.assign($fa40cc, (function () {
+        Object.assign($4b05a3, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -16229,9 +16226,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$fa40cc', $fa40cc);
+            api.createRecord('$4b05a3', $4b05a3);
           } else {
-            api.reload('$fa40cc', $fa40cc);
+            api.reload('$4b05a3', $4b05a3);
           }
         }
 
@@ -16260,14 +16257,14 @@ var _default = {
   }
 };
 exports.default = _default;
-        var $03c136 = exports.default || module.exports;
+        var $96ad12 = exports.default || module.exports;
       
-      if (typeof $03c136 === 'function') {
-        $03c136 = $03c136.options;
+      if (typeof $96ad12 === 'function') {
+        $96ad12 = $96ad12.options;
       }
     
         /* template */
-        Object.assign($03c136, (function () {
+        Object.assign($96ad12, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -16307,9 +16304,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$03c136', $03c136);
+            api.createRecord('$96ad12', $96ad12);
           } else {
-            api.reload('$03c136', $03c136);
+            api.reload('$96ad12', $96ad12);
           }
         }
 
@@ -16317,26 +16314,48 @@ render._withStripped = true
       }
     })();
 },{"vue-hot-reload-api":"../node_modules/vue-hot-reload-api/dist/index.js","vue":"../node_modules/vue/dist/vue.common.js"}],"components/win.vue":[function(require,module,exports) {
+"use strict";
 
-        var $e54f9f = exports.default || module.exports;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+//
+//
+//
+//
+//
+//
+//
+//
+var _default = {
+  data: function data() {
+    return {
+      message: "Felicitations, vous avez bien mérité votre récompense ! Vous quittez Athène et pouvez ainsi reprendre la route vers de nouvelles aventures, qui sait ce qui vous attend ?"
+    };
+  }
+};
+exports.default = _default;
+        var $47da79 = exports.default || module.exports;
       
-      if (typeof $e54f9f === 'function') {
-        $e54f9f = $e54f9f.options;
+      if (typeof $47da79 === 'function') {
+        $47da79 = $47da79.options;
       }
     
         /* template */
-        Object.assign($e54f9f, (function () {
+        Object.assign($47da79, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c(
     "div",
+    { staticClass: "win" },
     [
-      _c("h1", [_vm._v(" " + _vm._s(_vm.message) + " ")]),
+      _c("h1", { staticClass: "win__title" }, [_vm._v(_vm._s(_vm.message))]),
       _vm._v(" "),
       _c("router-link", { staticClass: "button", attrs: { to: "/" } }, [
-        _vm._v("Recommencer la partie")
+        _vm._v("Terminer la partie")
       ])
     ],
     1
@@ -16362,9 +16381,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$e54f9f', $e54f9f);
+            api.createRecord('$47da79', $47da79);
           } else {
-            api.reload('$e54f9f', $e54f9f);
+            api.reload('$47da79', $47da79);
           }
         }
 
@@ -16507,7 +16526,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50923" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62600" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -3,7 +3,7 @@
     <h1 class="home__title">MYTHOLO' CHOICES</h1>
     <br/>
     <router-link class="button" to="/game/1">Commencer la partie</router-link>
-    
+  
   </div>
 
  

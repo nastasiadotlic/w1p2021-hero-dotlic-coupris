@@ -17,14 +17,14 @@ Venez jouer à cette adresse : http://votre-url-ici.com
 | Setup | Le site est en ligne, et l'URL est citée dans le README.md | - |
 | Setup | Le site utilise VueJS | FAIT |
 | Setup | Cloner le repository et exécuter `npm install` puis `npm run dev` s'effectue sans encombre | - |
-| Données | Un schéma numérique ou papier (scanné ou photographié) décrivant les différentes étapes et enchaînements possible. Affiché dans ce readme (si plusieurs images sont nécessaires, en afficher plusieurs, mais essayer d'être synthétique). | - |
-| Données | Un fichier `data.json` est utilisé pour stocker la structure du jeu | - |
+| Données | Un schéma numérique ou papier (scanné ou photographié) décrivant les différentes étapes et enchaînements possible. Affiché dans ce readme (si plusieurs images sont nécessaires, en afficher plusieurs, mais essayer d'être synthétique). | FAIT |
+| Données | Un fichier `data.json` est utilisé pour stocker la structure du jeu | FAIT |
 | Données | Le fichier `data.json` décrit 30 phases de jeu ou plus. Indiquez *En partie* s'il en décrit plus de 15. | FAIT |
 | Pages | Une page d'accueil est présente | FAIT |
-| Pages | Une page de choix du personnage est présente | - |
+| Pages | Une page de choix du personnage est présente | FAIT |
 | Pages | Une page de victoire est présente | FAIT |
 | Pages | Une page d'échec est présente | FAIT (8) |
-| Routing | Une route dont l'`id` varie permet d'afficher les différentes étapes du jeu | - |
+| Routing | Une route dont l'`id` varie permet d'afficher les différentes étapes du jeu | FAIT |
 | Routing | Lorsqu'on recharge la page (`Ctrl + R`), on se trouve toujours à la même étape | - |
 | Transitions | Chaque page apparaît grâce à une transition fluide (la complexité de la transition n'est pas prise en compte ici) | - |
 | Transitions | Les transitions internes au jeu (d'une étape à une autre) et externes (intro, fin...) sont différentes | - |

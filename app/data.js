@@ -25,14 +25,14 @@ export default {
         },
         {
           "answer": "PHAENNA",
-          "goto": 2
+          "goto": 32
         }
       ]
     },
     {
       "id": 2,
       "img": city,
-      "message": "Bienvenue ${this.prenom}, ta quête commence ici, il est temps de quitter ton île natale pour partir à l’aventure. Mais tu as besoin d’un navire ! Que décides-tu ?",
+      "message": "Bienvenue Léandre, ta quête commence ici, il est temps de quitter ton île natale pour partir à l’aventure. Mais tu as besoin d’un navire ! Que décides-tu ?",
       "actions": [
         {
           "answer": "DÉCIDER D'Y ALLER A LA NAGE",
@@ -424,6 +424,21 @@ export default {
           "win": "win"
         }
       ]
-    }
+    },
+    {
+      "id": 32,
+      "img": city,
+      "message": "Bienvenue Phaenna, ta quête commence ici, il est temps de quitter ton île natale pour partir à l’aventure. Mais tu as besoin d’un navire ! Que décides-tu ?",
+      "actions": [
+        {
+          "answer": "DÉCIDER D'Y ALLER A LA NAGE",
+          "loose": "loose1"
+        },
+        {
+          "answer": "SE RENDRE AU PORT",
+          "goto": 3
+        }
+      ]
+    },
   ]
 };

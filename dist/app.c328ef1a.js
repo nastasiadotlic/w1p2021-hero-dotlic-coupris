@@ -117,9 +117,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"assets/pictures/backgroundCity.jpg":[function(require,module,exports) {
-module.exports = "/backgroundCity.fdaae1fc.jpg";
-},{}],"../node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+})({"../node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -191,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../pictures/backgroundCity.jpg":[["backgroundCity.fdaae1fc.jpg","assets/pictures/backgroundCity.jpg"],"assets/pictures/backgroundCity.jpg"],"./../fonts/Quattrocento-Regular.ttf":[["Quattrocento-Regular.68bdbae7.ttf","assets/fonts/Quattrocento-Regular.ttf"],"assets/fonts/Quattrocento-Regular.ttf"],"./../fonts/Quattrocento-Bold.ttf":[["Quattrocento-Bold.2e6e171c.ttf","assets/fonts/Quattrocento-Bold.ttf"],"assets/fonts/Quattrocento-Bold.ttf"],"./../pictures/backgroundLoose1.jpg":[["backgroundLoose1.41e360e3.jpg","assets/pictures/backgroundLoose1.jpg"],"assets/pictures/backgroundLoose1.jpg"],"./../pictures/backgroundLoose2.jpg":[["backgroundLoose2.da8f0c1d.jpg","assets/pictures/backgroundLoose2.jpg"],"assets/pictures/backgroundLoose2.jpg"],"./../pictures/backgroundLoose3.jpg":[["backgroundLoose3.3f8f6607.jpg","assets/pictures/backgroundLoose3.jpg"],"assets/pictures/backgroundLoose3.jpg"],"./../pictures/backgroundLoose4.jpg":[["backgroundLoose4.e40a53b3.jpg","assets/pictures/backgroundLoose4.jpg"],"assets/pictures/backgroundLoose4.jpg"],"./../pictures/backgroundLoose5.jpg":[["backgroundLoose5.551a933a.jpg","assets/pictures/backgroundLoose5.jpg"],"assets/pictures/backgroundLoose5.jpg"],"./../pictures/backgroundLoose6.jpg":[["backgroundLoose6.524c38ae.jpg","assets/pictures/backgroundLoose6.jpg"],"assets/pictures/backgroundLoose6.jpg"],"./../pictures/backgroundLoose7.jpg":[["backgroundLoose7.90b77e99.jpg","assets/pictures/backgroundLoose7.jpg"],"assets/pictures/backgroundLoose7.jpg"],"./../pictures/backgroundLoose8.jpg":[["backgroundLoose8.5dd04cf1.jpg","assets/pictures/backgroundLoose8.jpg"],"assets/pictures/backgroundLoose8.jpg"],"./../pictures/backgroundWin.png":[["backgroundWin.e8374d36.png","assets/pictures/backgroundWin.png"],"assets/pictures/backgroundWin.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/vue/dist/vue.common.dev.js":[function(require,module,exports) {
+},{"./../pictures/backgroundHomepage.jpg":[["backgroundHomepage.6ff32719.jpg","assets/pictures/backgroundHomepage.jpg"],"assets/pictures/backgroundHomepage.jpg"],"./../fonts/Quattrocento-Regular.ttf":[["Quattrocento-Regular.68bdbae7.ttf","assets/fonts/Quattrocento-Regular.ttf"],"assets/fonts/Quattrocento-Regular.ttf"],"./../fonts/Quattrocento-Bold.ttf":[["Quattrocento-Bold.2e6e171c.ttf","assets/fonts/Quattrocento-Bold.ttf"],"assets/fonts/Quattrocento-Bold.ttf"],"./../pictures/backgroundLoose1.jpg":[["backgroundLoose1.41e360e3.jpg","assets/pictures/backgroundLoose1.jpg"],"assets/pictures/backgroundLoose1.jpg"],"./../pictures/backgroundLoose2.jpg":[["backgroundLoose2.da8f0c1d.jpg","assets/pictures/backgroundLoose2.jpg"],"assets/pictures/backgroundLoose2.jpg"],"./../pictures/backgroundLoose3.jpg":[["backgroundLoose3.3f8f6607.jpg","assets/pictures/backgroundLoose3.jpg"],"assets/pictures/backgroundLoose3.jpg"],"./../pictures/backgroundLoose4.jpg":[["backgroundLoose4.e40a53b3.jpg","assets/pictures/backgroundLoose4.jpg"],"assets/pictures/backgroundLoose4.jpg"],"./../pictures/backgroundLoose5.jpg":[["backgroundLoose5.551a933a.jpg","assets/pictures/backgroundLoose5.jpg"],"assets/pictures/backgroundLoose5.jpg"],"./../pictures/backgroundLoose6.jpg":[["backgroundLoose6.524c38ae.jpg","assets/pictures/backgroundLoose6.jpg"],"assets/pictures/backgroundLoose6.jpg"],"./../pictures/backgroundLoose7.jpg":[["backgroundLoose7.90b77e99.jpg","assets/pictures/backgroundLoose7.jpg"],"assets/pictures/backgroundLoose7.jpg"],"./../pictures/backgroundLoose8.jpg":[["backgroundLoose8.5dd04cf1.jpg","assets/pictures/backgroundLoose8.jpg"],"assets/pictures/backgroundLoose8.jpg"],"./../pictures/backgroundWin.png":[["backgroundWin.e8374d36.png","assets/pictures/backgroundWin.png"],"assets/pictures/backgroundWin.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/vue/dist/vue.common.dev.js":[function(require,module,exports) {
 var global = arguments[3];
 /*!
  * Vue.js v2.6.10
@@ -15055,34 +15053,7 @@ function patchScopedSlots (instance) {
 }
 
 },{}],"components/Home/Home.vue":[function(require,module,exports) {
-"use strict";
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-var _default = {
-  data: function data() {
-    return {
-      message: "Salut, bienvenue, c'est à toi de jouer"
-    };
-  }
-};
-exports.default = _default;
         var $867bd6 = exports.default || module.exports;
       
       if (typeof $867bd6 === 'function') {
@@ -15099,13 +15070,13 @@ exports.default = _default;
     "div",
     { staticClass: "home" },
     [
-      _c("h1", { staticClass: "home__title" }, [_vm._v("MYTHOLO' CHOICES")]),
-      _vm._v(" "),
       _c("br"),
       _vm._v(" "),
-      _c("router-link", { staticClass: "button", attrs: { to: "/game/1" } }, [
-        _vm._v("Commencer la partie")
-      ])
+      _c(
+        "router-link",
+        { staticClass: "home__button", attrs: { to: "/game/1" } },
+        [_vm._v("Commencer la partie")]
+      )
     ],
     1
   )
@@ -15139,7 +15110,9 @@ render._withStripped = true
         
       }
     })();
-},{"vue-hot-reload-api":"../node_modules/vue-hot-reload-api/dist/index.js","vue":"../node_modules/vue/dist/vue.common.js"}],"assets/pictures/backgroundHarbour.jpg":[function(require,module,exports) {
+},{"vue-hot-reload-api":"../node_modules/vue-hot-reload-api/dist/index.js","vue":"../node_modules/vue/dist/vue.common.js"}],"assets/pictures/backgroundCity.jpg":[function(require,module,exports) {
+module.exports = "/backgroundCity.fdaae1fc.jpg";
+},{}],"assets/pictures/backgroundHarbour.jpg":[function(require,module,exports) {
 module.exports = "/backgroundHarbour.56d3a10f.jpg";
 },{}],"assets/pictures/backgroundSea.jpg":[function(require,module,exports) {
 module.exports = "/backgroundSea.1dcaeaf0.jpg";
@@ -15197,7 +15170,7 @@ var _default = {
   "steps": [{
     "id": 1,
     "img": city,
-    "message": "Oh c'est donc toi notre héros en quête de grandes aventures, tu as décidé donc de partir sur les traces des plus grands héros de la mythologie afin de prouver sa bravoure ! Mais... qui es tu ?",
+    "message": "Oh ! C'est donc toi notre héros en quête de grandes aventures ! Tu as décidé de partir sur les traces des plus grands héros de la mythologie qui ton précédé, afin de prouver ta bravoure ! Arriveras-tu là où les autres ont échoué ? Mais tout d'abord... qui es tu ?",
     "actions": [{
       "answer": "LÉANDRE",
       "goto": 2
@@ -15208,7 +15181,7 @@ var _default = {
   }, {
     "id": 2,
     "img": city,
-    "message": "Bienvenue {machin}, ta quête commence ici, il est temps de quitter ton île natale pour partir à l’aventure. Mais tu as besoin d’un navire !",
+    "message": "Bienvenue ${this.prenom}, ta quête commence ici, il est temps de quitter ton île natale pour partir à l’aventure. Mais tu as besoin d’un navire ! Que décides-tu ?",
     "actions": [{
       "answer": "DÉCIDER D'Y ALLER A LA NAGE",
       "loose": "loose1"
@@ -15219,7 +15192,7 @@ var _default = {
   }, {
     "id": 3,
     "img": city,
-    "message": "Oh au fait, pensez à emporter vos économies, vous avez travaillé durement pour mettre de côté toutes ces oboles. Elles vous servirons forcément !",
+    "message": "Oh, au fait, pensez à emporter vos économies, vous avez travaillé durement pour mettre de côté toutes ces oboles. Elles vous serviront forcément !",
     "actions": [{
       "answer": "CONTINUER",
       "goto": 4
@@ -15239,7 +15212,7 @@ var _default = {
   {
     "id": 5,
     "img": sea,
-    "message": "Félicitation vous êtes maintenant en possession d’un bâteau ! Sans attendre davantage, vous embarquez en mer, les eaux semblent plutôt calmes aujourd’hui, c’est le temps idéal ! Mais au bout de quelques heures de navigation en mer, un étrange phénomène se produit... devant vous, au milieu de la brûme apparait Poséidon. Alors que vous vous inclinez devant le dieu des Océans, celui-ci s’adresse à vous.",
+    "message": "Félicitation vous êtes maintenant en possession d’un bâteau ! Sans attendre davantage, vous embarquez en mer. Les eaux semblent plutôt calmes aujourd’hui, c’est le temps idéal ! Mais au bout de quelques heures de navigation en mer, un étrange phénomène se produit... devant vous, au milieu de la brûme apparait Poséidon. Alors que vous vous inclinez devant le dieu des Océans, celui-ci s’adresse à vous.",
     "actions": [{
       "answer": "CONTINUER",
       "goto": 6
@@ -15247,7 +15220,7 @@ var _default = {
   }, {
     "id": 6,
     "img": poseidon,
-    "message": "Je te salue [machin], j’interrompt ton voyage pour te confier une quête, comme tu le sais, j’ai récemment perdu face à ma nièce, les athéniens étaient pris de folie et l’ont choisit à ma place. Le symbole de leur union est un cadeau d’Athéna, un Olivier sacré, planté au coeur de la cité. Je veux que tu te rendes à Athènes et empoisonnes cet arbre ! Si tu remplis ta mission, tu seras très bien recompenser, les dieux savent récompenser le mortel le méritant.",
+    "message": "Je te salue [machin], j’interrompt ton voyage pour te confier une quête. Comme tu le sais, j’ai récemment perdu face à ma nièce, Athéna. Les athéniens ont préféré jouir de sa bénédiction face à la mienne. Le symbole de leur union est un cadeau d’Athéna, un Olivier sacré, planté au coeur de la cité. Je veux que tu te rendes à Athènes et empoisonnes cet arbre ! Les dieux savent récompenser les mortels les plus méritants...",
     "actions": [{
       "answer": "ACCEPTER",
       "goto": 8
@@ -15266,7 +15239,7 @@ var _default = {
   }, {
     "id": 8,
     "img": hostel,
-    "message": "Vous arrivez au bout de votre voyage en mer et débarquez sur une contrée loin de chez vous. Il fait nuit, vous avez besoin d’un endroit pour dormir. Au loin, vous voyez une auberge. Une nuit au chaud vous ferait le plus grand bien. Mais il ne vous reste que quelques oboles, ou allez-vous dormir ?",
+    "message": "Vous arrivez au bout de votre voyage en mer et débarquez sur une contrée loin de chez vous. Il fait nuit, vous avez besoin d’un endroit pour dormir. Au loin, vous voyez une auberge. Une nuit au chaud vous ferait le plus grand bien. Mais il ne vous reste que quelques oboles, où allez-vous dormir ?",
     "actions": [{
       "answer": "AUBERGE",
       "goto": 9
@@ -15306,7 +15279,7 @@ var _default = {
   }, {
     "id": 12,
     "img": poseidon,
-    "message": "Je te salue [machin], j’interrompt ton voyage pour te confier une quête, comme tu le sais, j’ai récemment perdu face à ma nièce, les athéniens étaient pris de folie et l’ont choisit à ma place. Le symbole de leur union est un cadeau d’Athéna, un Olivier sacré, planté au coeur de la cité. Je veux que tu te rendes à Athènes et empoisonnes cet arbre ! Si tu remplis ta mission, tu seras très bien recompenser, les dieux savent récompenser le mortel le méritant.",
+    "message": "Je te salue [machin], j’interrompt ton voyage pour te confier une quête. Comme tu le sais, j’ai récemment perdu face à ma nièce, Athéna. Les athéniens ont préféré jouir de sa bénédiction face à la mienne. Le symbole de leur union est un cadeau d’Athéna, un Olivier sacré, planté au coeur de la cité. Je veux que tu te rendes à Athènes et empoisonnes cet arbre ! Les dieux savent récompenser les mortels les plus méritants...",
     "actions": [{
       "answer": "ACCEPTER",
       "goto": 13
@@ -15379,7 +15352,7 @@ var _default = {
   }, {
     "id": 19,
     "img": cave,
-    "message": "Quelques heures de marche suffisent pour atteindre le repère du griffon, vous vous aventurez prudemment dans une sombre caverne où vous apercevez enfin la créature  gravement blessée. La dague dépasse de son flan, le monste est à l’agonie. Vous réfléchissez à un stratagème afin de récupérer la dague prodigieuse. Vous pourriez ramasser une pierre et essayer de fendre le crâne de la bête ou vous cacher et attendre que le poison fasse effet.",
+    "message": "Quelques heures de marche suffisent pour atteindre le repère du griffon. Vous vous aventurez prudemment dans une sombre caverne où vous apercevez enfin la créature, gravement blessée. La dague dépasse de son flan, le monste est à l’agonie. Vous réfléchissez à un stratagème afin de récupérer la dague prodigieuse. Vous pourriez ramasser une pierre et essayer de fendre le crâne de la bête ou vous cacher et attendre que le poison fasse effet.",
     "actions": [{
       "answer": "ATTAQUER",
       "loose": "loose5"
@@ -15398,7 +15371,7 @@ var _default = {
   }, {
     "id": 21,
     "img": forest,
-    "message": "Quelques jours plus tard, alors que vous poursuiviez votre route, le  paysage change. Des statues jonchent une forêt terriblement silencieuse... Tout semble plus sombre tout à coup. Vous dégainez votre dague, à l’affût de tout danger ! Soudain, vous apercevez une créature qui surgit des ténèbres.",
+    "message": "Quelques jours plus tard, alors que vous poursuiviez votre route, le paysage change. Des statues jonchent une forêt terriblement silencieuse... Tout semble plus sombre tout à coup. Vous dégainez votre dague, à l’affût de tout danger ! Soudain, vous apercevez une créature qui surgit des ténèbres.",
     "actions": [{
       "answer": "CONTINUER",
       "goto": 23
@@ -15406,7 +15379,7 @@ var _default = {
   }, {
     "id": 22,
     "img": forest,
-    "message": "Quelques jours plus tard, alors que vous poursuiviez votre route, le  paysage change. Des statues jonchent une forêt terriblement silencieuse... Vous entendez des bruits inquiétants tout autour de vous et apercevez alors Méduse... mais vous n’avez aucune arme pour vous défendre !",
+    "message": "Quelques jours plus tard, alors que vous poursuiviez votre route, le paysage change. Des statues jonchent une forêt terriblement silencieuse... Vous entendez des bruits inquiétants tout autour de vous et apercevez alors Méduse... mais vous n’avez aucune arme pour vous défendre !",
     "actions": [{
       "answer": "ATTAQUER",
       "loose": "loose6"
@@ -15417,7 +15390,7 @@ var _default = {
   }, {
     "id": 23,
     "img": forest,
-    "message": "C’est Méduse ! Vous avez beaucoup entendu parler de ce monstre et vous connaissez son pouvoir. Vaincre cette créature ferait de vous un héros légendaire ! Vous pourriez  attaquer mais il  serait peut être plus sage d'attendre...",
+    "message": "C’est Méduse ! Vous avez beaucoup entendu parler de ce monstre et vous connaissez son pouvoir. Vaincre cette créature ferait de vous un héros légendaire ! Vous pourriez attaquer mais il serait peut être plus sage d'attendre...",
     "actions": [{
       "answer": "ATTAQUER",
       "loose": "loose6"
@@ -15436,7 +15409,7 @@ var _default = {
   }, {
     "id": 25,
     "img": athene,
-    "message": "Vous arrivez enfin à Athènes ! La ville est majestueuse et pleine de beauté. Depuis l’extérieur de la ville, vous apercevez l’Acropole. Votre destination finale est au sommet de cette colline ; elle abrite le Parthénon et l’olivier sacré  !  Mais la ville est encore très fréquenter, qu'allez vous faire ?",
+    "message": "Vous arrivez enfin à Athènes ! La ville est majestueuse et pleine de beauté. Depuis l’extérieur de la ville, vous apercevez l’Acropole. Votre destination finale est au sommet de cette colline, elle abrite le Parthénon et l’olivier sacré ! Mais la ville est encore très fréquentée, qu'allez vous faire ?",
     "actions": [{
       "answer": "ENTRER",
       "loose": "loose7"
@@ -15455,7 +15428,7 @@ var _default = {
   }, {
     "id": 27,
     "img": night,
-    "message": "Alors que vous approchez de l’olivier sacré, des gardes vous barrent la route. Prévenu par Athéna de votre arrivée, ils ont ordre de vous arrêter.",
+    "message": "Alors que vous approchez de l’olivier sacré, des gardes vous barrent la route. Prévenu par Athéna de votre arrivée, ils ont ordre de vous arrêter. Avec quoi allez-vous attaquer ?",
     "actions": [{
       "answer": "LA DAGUE EMPOISONNÉE",
       "loose": "loose8"
@@ -15493,15 +15466,19 @@ var _default = {
     "message": "Les dieux savent tenir leurs promesses et Poséidon ne fait pas exception à la règle. Il vous laisse même le choix entre deux présents. Sa bénédiction vous permettra de naviguer librement sur tous les océans tout en vous assurant une victoire dans chacune de vos batailles navales. Sa seconde proposition est une arme, un trident pour être exact. Forgé pour Poséidon en personne, il a pour caractéristique de ne jamais manquer sa cible. Qu'allez vous choisir ?",
     "actions": [{
       "answer": "BÉNÉDICTION",
-      "goto": "win"
+      "win": "win"
     }, {
       "answer": "ARME",
-      "goto": "win"
+      "win": "win"
     }]
   }]
 };
 exports.default = _default;
-},{"./assets/pictures/backgroundCity.jpg":"assets/pictures/backgroundCity.jpg","./assets/pictures/backgroundHarbour.jpg":"assets/pictures/backgroundHarbour.jpg","./assets/pictures/backgroundSea.jpg":"assets/pictures/backgroundSea.jpg","./assets/pictures/backgroundPoseidon.jpg":"assets/pictures/backgroundPoseidon.jpg","./assets/pictures/backgroundStorm.jpg":"assets/pictures/backgroundStorm.jpg","./assets/pictures/backgroundHostel.jpg":"assets/pictures/backgroundHostel.jpg","./assets/pictures/backgroundMarket.jpg":"assets/pictures/backgroundMarket.jpg","./assets/pictures/backgroundOldman.jpg":"assets/pictures/backgroundOldman.jpg","./assets/pictures/backgroundCave.jpg":"assets/pictures/backgroundCave.jpg","./assets/pictures/backgroundForest.jpg":"assets/pictures/backgroundForest.jpg","./assets/pictures/backgroundAthene.jpg":"assets/pictures/backgroundAthene.jpg","./assets/pictures/backgroundAtheneNight.jpg":"assets/pictures/backgroundAtheneNight.jpg"}],"components/Game.vue":[function(require,module,exports) {
+},{"./assets/pictures/backgroundCity.jpg":"assets/pictures/backgroundCity.jpg","./assets/pictures/backgroundHarbour.jpg":"assets/pictures/backgroundHarbour.jpg","./assets/pictures/backgroundSea.jpg":"assets/pictures/backgroundSea.jpg","./assets/pictures/backgroundPoseidon.jpg":"assets/pictures/backgroundPoseidon.jpg","./assets/pictures/backgroundStorm.jpg":"assets/pictures/backgroundStorm.jpg","./assets/pictures/backgroundHostel.jpg":"assets/pictures/backgroundHostel.jpg","./assets/pictures/backgroundMarket.jpg":"assets/pictures/backgroundMarket.jpg","./assets/pictures/backgroundOldman.jpg":"assets/pictures/backgroundOldman.jpg","./assets/pictures/backgroundCave.jpg":"assets/pictures/backgroundCave.jpg","./assets/pictures/backgroundForest.jpg":"assets/pictures/backgroundForest.jpg","./assets/pictures/backgroundAthene.jpg":"assets/pictures/backgroundAthene.jpg","./assets/pictures/backgroundAtheneNight.jpg":"assets/pictures/backgroundAtheneNight.jpg"}],"assets/pictures/speakeron.png":[function(require,module,exports) {
+module.exports = "/speakeron.aaadda38.png";
+},{}],"assets/audio/greekSoundtrack.mp3":[function(require,module,exports) {
+module.exports = "/greekSoundtrack.43abf72f.mp3";
+},{}],"components/Game.vue":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -15510,6 +15487,10 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _data = _interopRequireDefault(require("../data.js"));
+
+var _speakeron = _interopRequireDefault(require("../assets/pictures/speakeron.png"));
+
+var _greekSoundtrack = _interopRequireDefault(require("../assets/audio/greekSoundtrack.mp3"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -15562,13 +15543,23 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
 // import characterService from '../';
 var _default = {
-  /*data() {
+  data: function data() {
     return {
-      game: game
-    }
-  },*/
+      image: _speakeron.default,
+      sound: _greekSoundtrack.default
+    };
+  },
   computed: {
     step: function step() {
       return this.findStep();
@@ -15601,8 +15592,19 @@ var _default = {
             id: action.goto
           }
         });
-      } //changer l'ID
+      }
 
+      if (action.win) {
+        this.$router.push({
+          name: action.win
+        });
+      }
+    },
+    playSound: function playSound(sound) {
+      if (sound) {
+        var audio = new Audio(sound);
+        audio.play();
+      }
     }
   }
 };
@@ -15626,6 +15628,17 @@ exports.default = _default;
       style: { "background-image": "url(" + _vm.step.img + ")" }
     },
     [
+      _c("img", {
+        staticClass: "game__speaker",
+        attrs: { src: _vm.image, alt: "speaker" },
+        on: {
+          click: function($event) {
+            $event.preventDefault()
+            return _vm.playSound(_vm.sound)
+          }
+        }
+      }),
+      _vm._v(" "),
       _c("div", { staticClass: "game__text" }, [
         _c("h1", { staticClass: "game__title" }, [
           _vm._v(_vm._s(_vm.step.message))
@@ -15653,7 +15666,9 @@ exports.default = _default;
           }),
           0
         )
-      ])
+      ]),
+      _vm._v(" "),
+      _c("audio", { attrs: { src: _vm.sound, loop: "" } })
     ]
   )
 }
@@ -15690,7 +15705,7 @@ render._withStripped = true
       
       }
     })();
-},{"../data.js":"data.js","_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js","vue-hot-reload-api":"../node_modules/vue-hot-reload-api/dist/index.js","vue":"../node_modules/vue/dist/vue.common.js"}],"components/Loose/loose1.vue":[function(require,module,exports) {
+},{"../data.js":"data.js","../assets/pictures/speakeron.png":"assets/pictures/speakeron.png","../assets/audio/greekSoundtrack.mp3":"assets/audio/greekSoundtrack.mp3","_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js","vue-hot-reload-api":"../node_modules/vue-hot-reload-api/dist/index.js","vue":"../node_modules/vue/dist/vue.common.js"}],"components/Loose/loose1.vue":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -16526,7 +16541,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62600" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52213" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -17,7 +17,7 @@ export default {
     {
       "id": 1,
       "img": city,
-      "message": "Oh c'est donc toi notre héros en quête de grandes aventures, tu as décidé donc de partir sur les traces des plus grands héros de la mythologie afin de prouver sa bravoure ! Mais... qui es tu ?",
+      "message": "Oh ! C'est donc toi notre héros en quête de grandes aventures ! Tu as décidé de partir sur les traces des plus grands héros de la mythologie qui ton précédé, afin de prouver ta bravoure ! Arriveras-tu là où les autres ont échoué ? Mais tout d'abord... qui es tu ?",
       "actions": [
         {
           "answer": "LÉANDRE",
@@ -32,7 +32,7 @@ export default {
     {
       "id": 2,
       "img": city,
-      "message": "Bienvenue {machin}, ta quête commence ici, il est temps de quitter ton île natale pour partir à l’aventure. Mais tu as besoin d’un navire !",
+      "message": "Bienvenue ${this.prenom}, ta quête commence ici, il est temps de quitter ton île natale pour partir à l’aventure. Mais tu as besoin d’un navire ! Que décides-tu ?",
       "actions": [
         {
           "answer": "DÉCIDER D'Y ALLER A LA NAGE",
@@ -47,7 +47,7 @@ export default {
     {
       "id": 3,
       "img": city,
-      "message": "Oh au fait, pensez à emporter vos économies, vous avez travaillé durement pour mettre de côté toutes ces oboles. Elles vous servirons forcément !",
+      "message": "Oh, au fait, pensez à emporter vos économies, vous avez travaillé durement pour mettre de côté toutes ces oboles. Elles vous serviront forcément !",
       "actions": [
         {
           "answer": "CONTINUER", 
@@ -74,7 +74,7 @@ export default {
     {
       "id": 5,
       "img": sea,
-      "message": "Félicitation vous êtes maintenant en possession d’un bâteau ! Sans attendre davantage, vous embarquez en mer, les eaux semblent plutôt calmes aujourd’hui, c’est le temps idéal ! Mais au bout de quelques heures de navigation en mer, un étrange phénomène se produit... devant vous, au milieu de la brûme apparait Poséidon. Alors que vous vous inclinez devant le dieu des Océans, celui-ci s’adresse à vous.",
+      "message": "Félicitation vous êtes maintenant en possession d’un bâteau ! Sans attendre davantage, vous embarquez en mer. Les eaux semblent plutôt calmes aujourd’hui, c’est le temps idéal ! Mais au bout de quelques heures de navigation en mer, un étrange phénomène se produit... devant vous, au milieu de la brûme apparait Poséidon. Alors que vous vous inclinez devant le dieu des Océans, celui-ci s’adresse à vous.",
       "actions": [
         {
           "answer": "CONTINUER", 
@@ -85,7 +85,7 @@ export default {
     {
       "id": 6,
       "img": poseidon,
-      "message": "Je te salue [machin], j’interrompt ton voyage pour te confier une quête, comme tu le sais, j’ai récemment perdu face à ma nièce, les athéniens étaient pris de folie et l’ont choisit à ma place. Le symbole de leur union est un cadeau d’Athéna, un Olivier sacré, planté au coeur de la cité. Je veux que tu te rendes à Athènes et empoisonnes cet arbre ! Si tu remplis ta mission, tu seras très bien recompenser, les dieux savent récompenser le mortel le méritant.",
+      "message": "Je te salue [machin], j’interrompt ton voyage pour te confier une quête. Comme tu le sais, j’ai récemment perdu face à ma nièce, Athéna. Les athéniens ont préféré jouir de sa bénédiction face à la mienne. Le symbole de leur union est un cadeau d’Athéna, un Olivier sacré, planté au coeur de la cité. Je veux que tu te rendes à Athènes et empoisonnes cet arbre ! Les dieux savent récompenser les mortels les plus méritants...",
       "actions": [
         {
           "answer": "ACCEPTER",
@@ -111,7 +111,7 @@ export default {
     {
       "id": 8,
       "img": hostel,
-      "message": "Vous arrivez au bout de votre voyage en mer et débarquez sur une contrée loin de chez vous. Il fait nuit, vous avez besoin d’un endroit pour dormir. Au loin, vous voyez une auberge. Une nuit au chaud vous ferait le plus grand bien. Mais il ne vous reste que quelques oboles, ou allez-vous dormir ?",
+      "message": "Vous arrivez au bout de votre voyage en mer et débarquez sur une contrée loin de chez vous. Il fait nuit, vous avez besoin d’un endroit pour dormir. Au loin, vous voyez une auberge. Une nuit au chaud vous ferait le plus grand bien. Mais il ne vous reste que quelques oboles, où allez-vous dormir ?",
       "actions": [
         {
           "answer": "AUBERGE",
@@ -163,7 +163,7 @@ export default {
     {
       "id": 12,
       "img": poseidon,
-      "message": "Je te salue [machin], j’interrompt ton voyage pour te confier une quête, comme tu le sais, j’ai récemment perdu face à ma nièce, les athéniens étaient pris de folie et l’ont choisit à ma place. Le symbole de leur union est un cadeau d’Athéna, un Olivier sacré, planté au coeur de la cité. Je veux que tu te rendes à Athènes et empoisonnes cet arbre ! Si tu remplis ta mission, tu seras très bien recompenser, les dieux savent récompenser le mortel le méritant.",
+      "message": "Je te salue [machin], j’interrompt ton voyage pour te confier une quête. Comme tu le sais, j’ai récemment perdu face à ma nièce, Athéna. Les athéniens ont préféré jouir de sa bénédiction face à la mienne. Le symbole de leur union est un cadeau d’Athéna, un Olivier sacré, planté au coeur de la cité. Je veux que tu te rendes à Athènes et empoisonnes cet arbre ! Les dieux savent récompenser les mortels les plus méritants...",
       "actions": [
         {
           "answer": "ACCEPTER",
@@ -261,7 +261,7 @@ export default {
     {
       "id": 19,
       "img": cave,
-      "message": "Quelques heures de marche suffisent pour atteindre le repère du griffon, vous vous aventurez prudemment dans une sombre caverne où vous apercevez enfin la créature  gravement blessée. La dague dépasse de son flan, le monste est à l’agonie. Vous réfléchissez à un stratagème afin de récupérer la dague prodigieuse. Vous pourriez ramasser une pierre et essayer de fendre le crâne de la bête ou vous cacher et attendre que le poison fasse effet.",
+      "message": "Quelques heures de marche suffisent pour atteindre le repère du griffon. Vous vous aventurez prudemment dans une sombre caverne où vous apercevez enfin la créature, gravement blessée. La dague dépasse de son flan, le monste est à l’agonie. Vous réfléchissez à un stratagème afin de récupérer la dague prodigieuse. Vous pourriez ramasser une pierre et essayer de fendre le crâne de la bête ou vous cacher et attendre que le poison fasse effet.",
       "actions": [
         {
           "answer": "ATTAQUER",
@@ -287,7 +287,7 @@ export default {
     {
       "id": 21,
       "img": forest,
-      "message": "Quelques jours plus tard, alors que vous poursuiviez votre route, le  paysage change. Des statues jonchent une forêt terriblement silencieuse... Tout semble plus sombre tout à coup. Vous dégainez votre dague, à l’affût de tout danger ! Soudain, vous apercevez une créature qui surgit des ténèbres.",
+      "message": "Quelques jours plus tard, alors que vous poursuiviez votre route, le paysage change. Des statues jonchent une forêt terriblement silencieuse... Tout semble plus sombre tout à coup. Vous dégainez votre dague, à l’affût de tout danger ! Soudain, vous apercevez une créature qui surgit des ténèbres.",
       "actions": [
         {
           "answer": "CONTINUER",
@@ -298,7 +298,7 @@ export default {
     {
       "id": 22,
       "img": forest,
-      "message": "Quelques jours plus tard, alors que vous poursuiviez votre route, le  paysage change. Des statues jonchent une forêt terriblement silencieuse... Vous entendez des bruits inquiétants tout autour de vous et apercevez alors Méduse... mais vous n’avez aucune arme pour vous défendre !",
+      "message": "Quelques jours plus tard, alors que vous poursuiviez votre route, le paysage change. Des statues jonchent une forêt terriblement silencieuse... Vous entendez des bruits inquiétants tout autour de vous et apercevez alors Méduse... mais vous n’avez aucune arme pour vous défendre !",
       "actions": [
         {
           "answer": "ATTAQUER",
@@ -313,7 +313,7 @@ export default {
     {
       "id": 23,
       "img": forest,
-      "message": "C’est Méduse ! Vous avez beaucoup entendu parler de ce monstre et vous connaissez son pouvoir. Vaincre cette créature ferait de vous un héros légendaire ! Vous pourriez  attaquer mais il  serait peut être plus sage d'attendre...",
+      "message": "C’est Méduse ! Vous avez beaucoup entendu parler de ce monstre et vous connaissez son pouvoir. Vaincre cette créature ferait de vous un héros légendaire ! Vous pourriez attaquer mais il serait peut être plus sage d'attendre...",
       "actions": [
         {
           "answer": "ATTAQUER",
@@ -339,7 +339,7 @@ export default {
     {
       "id": 25,
       "img": athene,
-      "message": "Vous arrivez enfin à Athènes ! La ville est majestueuse et pleine de beauté. Depuis l’extérieur de la ville, vous apercevez l’Acropole. Votre destination finale est au sommet de cette colline ; elle abrite le Parthénon et l’olivier sacré  !  Mais la ville est encore très fréquenter, qu'allez vous faire ?",
+      "message": "Vous arrivez enfin à Athènes ! La ville est majestueuse et pleine de beauté. Depuis l’extérieur de la ville, vous apercevez l’Acropole. Votre destination finale est au sommet de cette colline, elle abrite le Parthénon et l’olivier sacré ! Mais la ville est encore très fréquentée, qu'allez vous faire ?",
       "actions": [
           {
             "answer": "ENTRER",
@@ -365,7 +365,7 @@ export default {
     {
     "id": 27,
     "img": night,
-    "message": "Alors que vous approchez de l’olivier sacré, des gardes vous barrent la route. Prévenu par Athéna de votre arrivée, ils ont ordre de vous arrêter.",
+    "message": "Alors que vous approchez de l’olivier sacré, des gardes vous barrent la route. Prévenu par Athéna de votre arrivée, ils ont ordre de vous arrêter. Avec quoi allez-vous attaquer ?",
         "actions": [
         {
           "answer": "LA DAGUE EMPOISONNÉE",
@@ -417,11 +417,11 @@ export default {
       "actions": [
         {
           "answer": "BÉNÉDICTION",
-          "goto": "win"
+          "win": "win"
         },
         {
           "answer": "ARME",
-          "goto": "win"
+          "win": "win"
         }
       ]
     }

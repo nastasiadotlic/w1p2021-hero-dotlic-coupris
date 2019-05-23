@@ -1,6 +1,6 @@
 .home {
   height: 100vh;
-  background-image: url('../../assets/pictures/backgroundCity.jpg');
+  background-image: url('../../assets/pictures/backgroundHomepage.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -9,8 +9,13 @@
   justify-content: center;
 }
 
-.home__title {
-  font-size: 50px;
+.home__button {
+  text-decoration: none;
+  padding: 10px;
+  margin: 5px;
+  border: 2px solid white;
   color: white;
-  margin-bottom: 100px;
+  background-color:rgba(0, 0, 0, 0.151);
+  flex-direction: row;
+  margin-top: 200px;
 }

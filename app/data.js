@@ -85,7 +85,7 @@ export default {
     {
       "id": 6,
       "img": poseidon,
-      "message": "Je te salue [machin], j’interrompt ton voyage pour te confier une quête. Comme tu le sais, j’ai récemment perdu face à ma nièce, Athéna. Les athéniens ont préféré jouir de sa bénédiction face à la mienne. Le symbole de leur union est un cadeau d’Athéna, un Olivier sacré, planté au coeur de la cité. Je veux que tu te rendes à Athènes et empoisonnes cet arbre ! Les dieux savent récompenser les mortels les plus méritants...",
+      "message": "Je te salue, oh, grand aventurier ! J’interrompt ton voyage pour te confier une quête. Comme tu le sais, j’ai récemment perdu face à ma nièce, Athéna. Les athéniens ont préféré jouir de sa bénédiction face à la mienne. Le symbole de leur union est un cadeau d’Athéna, un Olivier sacré, planté au coeur de la cité. Je veux que tu te rendes à Athènes et empoisonnes cet arbre ! Les dieux savent récompenser les mortels les plus méritants...",
       "actions": [
         {
           "answer": "ACCEPTER",
@@ -163,7 +163,7 @@ export default {
     {
       "id": 12,
       "img": poseidon,
-      "message": "Je te salue [machin], j’interrompt ton voyage pour te confier une quête. Comme tu le sais, j’ai récemment perdu face à ma nièce, Athéna. Les athéniens ont préféré jouir de sa bénédiction face à la mienne. Le symbole de leur union est un cadeau d’Athéna, un Olivier sacré, planté au coeur de la cité. Je veux que tu te rendes à Athènes et empoisonnes cet arbre ! Les dieux savent récompenser les mortels les plus méritants...",
+      "message": "Je te salue, oh, grand aventurier ! J’interrompt ton voyage pour te confier une quête. Comme tu le sais, j’ai récemment perdu face à ma nièce, Athéna. Les athéniens ont préféré jouir de sa bénédiction face à la mienne. Le symbole de leur union est un cadeau d’Athéna, un Olivier sacré, planté au coeur de la cité. Je veux que tu te rendes à Athènes et empoisonnes cet arbre ! Les dieux savent récompenser les mortels les plus méritants...",
       "actions": [
         {
           "answer": "ACCEPTER",

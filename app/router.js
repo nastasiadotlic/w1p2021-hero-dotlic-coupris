@@ -3,7 +3,7 @@ import Router from 'vue-router';
 import Home from './components/Home/Home.vue';
 import Game from './components/Game.vue';
 import Loose1 from './components/Loose/loose1.vue';
-import Loose2 from './components/Loose/loose2.vue';
+import Loose2 from '../app/components/Loose/loose2.vue';
 import Loose3 from './components/Loose/loose3.vue';
 import Loose4 from './components/Loose/loose4.vue';
 import Loose5 from './components/Loose/loose5.vue';

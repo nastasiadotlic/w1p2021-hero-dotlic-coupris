@@ -4,7 +4,7 @@
     <div class="game__text">
       <h1 class="game__title">{{ step.message }}</h1>
       <div class="game__buttons">
-        <a href="#" v-for="(action, index) in step.actions" class="button" :key="index" @click.prevent="choiceSelected(action)" > {{ action.answer }} </a>
+        <a class="button" href="#" v-for="(action, index) in step.actions" class="button" :key="index" @click.prevent="choiceSelected(action)" > {{ action.answer }} </a>
       </div>
     </div>
     <audio autoplay loop :src="sound" ref="audio"></audio>
@@ -32,7 +32,7 @@
   .game__title {
     color: white;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.418);
+    background-color: rgba(0, 0, 0, 0.61);
     padding: 40px;
     border-radius: 20px;
     line-height: 40px;
@@ -40,6 +40,11 @@
 
   .game__buttons {
     display: flex;
+    
+  }
+
+  .button {
+    background-color: rgba(0, 0, 0, 0.356);
   }
 
   .game__speaker {

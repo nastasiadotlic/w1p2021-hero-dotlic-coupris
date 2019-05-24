@@ -17,7 +17,6 @@ export default {
     clearItem() {
       localStorage.removeItem("save");
       this.$router.push({path: '/'});
-
     }
   },
 }

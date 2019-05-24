@@ -15563,6 +15563,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //
 //
 //
+//
 // import characterService from '../';
 var _default = {
   data: function data() {
@@ -16434,7 +16435,7 @@ var _Game = _interopRequireDefault(require("./components/Game.vue"));
 
 var _loose = _interopRequireDefault(require("./components/Loose/loose1.vue"));
 
-var _loose2 = _interopRequireDefault(require("../app/components/Loose/loose2.vue"));
+var _loose2 = _interopRequireDefault(require("./components/Loose/loose2.vue"));
 
 var _loose3 = _interopRequireDefault(require("./components/Loose/loose3.vue"));
 
@@ -16510,7 +16511,7 @@ var router = new _vueRouter.default({
 });
 var _default = router;
 exports.default = _default;
-},{"vue":"../node_modules/vue/dist/vue.common.js","vue-router":"../node_modules/vue-router/dist/vue-router.esm.js","./components/Home/Home.vue":"components/Home/Home.vue","./components/Game.vue":"components/Game.vue","./components/Loose/loose1.vue":"components/Loose/loose1.vue","../app/components/Loose/loose2.vue":"components/Loose/loose2.vue","./components/Loose/loose3.vue":"components/Loose/loose3.vue","./components/Loose/loose4.vue":"components/Loose/loose4.vue","./components/Loose/loose5.vue":"components/Loose/loose5.vue","./components/Loose/loose6.vue":"components/Loose/loose6.vue","./components/Loose/loose7.vue":"components/Loose/loose7.vue","./components/Loose/loose8.vue":"components/Loose/loose8.vue","./components/win.vue":"components/win.vue"}],"app.js":[function(require,module,exports) {
+},{"vue":"../node_modules/vue/dist/vue.common.js","vue-router":"../node_modules/vue-router/dist/vue-router.esm.js","./components/Home/Home.vue":"components/Home/Home.vue","./components/Game.vue":"components/Game.vue","./components/Loose/loose1.vue":"components/Loose/loose1.vue","./components/Loose/loose2.vue":"components/Loose/loose2.vue","./components/Loose/loose3.vue":"components/Loose/loose3.vue","./components/Loose/loose4.vue":"components/Loose/loose4.vue","./components/Loose/loose5.vue":"components/Loose/loose5.vue","./components/Loose/loose6.vue":"components/Loose/loose6.vue","./components/Loose/loose7.vue":"components/Loose/loose7.vue","./components/Loose/loose8.vue":"components/Loose/loose8.vue","./components/win.vue":"components/win.vue"}],"app.js":[function(require,module,exports) {
 "use strict";
 
 require("./assets/scss/styles.scss");
@@ -16552,7 +16553,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50298" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50407" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

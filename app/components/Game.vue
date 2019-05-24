@@ -8,8 +8,10 @@
       </div>
     </div>
     <audio :src="sound" loop></audio>
+   </div>
+  
    
-  </div>
+  
 </template>
 
 <style>
@@ -49,7 +51,6 @@
     top: 20px;
     left: 20px;
   }
-
 
   
 </style>

@@ -34,7 +34,7 @@ Venez jouer à cette adresse : https://mytholochoices.netlify.com
 | État | Au moins un service (classe de type `GameService`) est utilisé | FAIT |
 | Sauvegarde | Lorsqu'on recharge la page (`Ctrl + R`), le personnage, ses caractéristiques, les choix du joueur et tout le reste sont rétablis | - |
 | Sauvegarde | Lorsqu'on quitte le jeu et qu'on revient plus tard à la page d'accueil (sur le même navigateur), il est possible de reprendre l'aventure où on l'avait laissée | - |
-| Multimédia | L'expérience présente une vidéo ou plus | - |
+| Multimédia | L'expérience présente une vidéo ou plus | FAIT |
 | Multimédia | L'expérience présente un audio ou plus | FAIT |
 | Multimédia | L'utilisateur a la possibilité de couper le son à tout moment | FAIT |
 

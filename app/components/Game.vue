@@ -7,7 +7,7 @@
         <a href="#" v-for="(action, index) in step.actions" class="button" :key="index" @click.prevent="choiceSelected(action)" > {{ action.answer }} </a>
       </div>
     </div>
-    <audio autoplay :src="sound" loop ref="audio"></audio>
+    <audio autoplay loop :src="sound" ref="audio"></audio>
    </div>
   
 </template>
@@ -58,14 +58,14 @@
 <script>
 import game from "../data.js";
 import image from "../assets/pictures/speakeron.png";
-import sound from "../assets/audio/greekSoundtrack.mp3";
+import musique from "../assets/audio/greekSoundtrack.mp3";
 import music from "../assets/soundService.js";
  
 export default {
   data() {
     return {
       image: image,
-      sound: sound
+      sound: musique
     }
   },
 
@@ -95,6 +95,16 @@ export default {
       music.playSound(sound);
     }
   },
+  mounted() {
+    if (localStorage.getItem("music")) {
+
+      if(localStorage.getItem("music") == "true") {
+        this.$refs.audio.muted = true;
+      }
+    }
+    localStorage.setItem("save", this.step.id);
+  },
+
 }
 
 </script>

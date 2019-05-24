@@ -1,7 +1,7 @@
 <template>
   <div class="loose4">
     <h1 class="loose4__title"> {{ message }} </h1>
-    <router-link class="button" to="/">Recommencer la partie</router-link>
+    <div class="button" @click="clearItem()">Recommencer la partie</div>
   </div>
 </template>
 
@@ -13,6 +13,12 @@ export default {
     return {
       message: "Le vendeur vous voit et lance les habitants à votre trousse ! Vous finissez l’aventure en prison...",
     };
+  },
+  methods: {
+    clearItem() {
+      localStorage.removeItem("save");
+      this.$router.push({path: '/'});
+    }
   },
 }
 

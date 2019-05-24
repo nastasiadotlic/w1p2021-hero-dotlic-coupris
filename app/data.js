@@ -402,7 +402,7 @@ export default {
     {
       "id": 30,
       "img": night,
-      "message": "Très vite, comme si une sorte d’alerte avait été donnée, les Athéniens sortent de leurs demeures, désemparés par votre acte ! Comment vont-ils vivre sans la bénédiction d’Athéna ? Fous de colère, ils se ruent vers l’Acropole mais sont arrêtés par l’apparition soudaine de Poséidon. Poséïdon vous félicite pour votre bravoure et promet aux Athéniens de les protéger.",
+      "message": "Très vite, comme si une sorte d’alerte avait été donnée, les Athéniens sortent de leurs demeures, désemparés par votre acte ! Comment vont-ils vivre sans la bénédiction d’Athéna ? Fous de colère, ils se ruent vers l’Acropole mais sont arrêtés par l’apparition soudaine de Poséidon. Il vous félicite pour votre bravoure et promet aux Athéniens de les protéger.",
       "actions": [
         {
           "answer": "ECOUTER",

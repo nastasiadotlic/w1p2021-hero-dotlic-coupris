@@ -30,7 +30,7 @@ Venez jouer à cette adresse : https://mytholochoices.netlify.com
 | Transitions | Les transitions internes au jeu (d'une étape à une autre) et externes (intro, fin...) sont différentes | NON |
 | État | Le choix du personnage et/ou de ses caractéristiques impacte l'aventure au moins une fois. **Indiquez ici comment succintement.** | PRENOM ENNONCÉ UNE FOIS |
 | État | Une décision ou un événement aléatoire survenu pendant l'aventure a un impact sur la suite, au moins une fois. **Indiquez ici comment succintement.** | Le choix du bâteau a une influence sur l'achat ou non d'un cheval plus tard. Ensuite, si le héros refuse une quête, il n'obtient pas de récompense, n'a pas d'arme et ne peut pas se  défendre plus tard.|
-| État | Le choix du personnage et/ou ce qu'il s'est passé pendant l'aventure impactent l'écran de fin. **Indiquez ici comment succintement.** | FAIT CAR LES CHOIX EFFECTUÉS DANS LE JEU PEUVENT MENER À UNE PAGE LOSE |
+| État | Le choix du personnage et/ou ce qu'il s'est passé pendant l'aventure impactent l'écran de fin. **Indiquez ici comment succintement.** | Fait car les choix effectués dans le jeu peuvent mener à une page lose |
 | État | Au moins un service (classe de type `GameService`) est utilisé | OUI |
 | Sauvegarde | Lorsqu'on recharge la page (`Ctrl + R`), le personnage, ses caractéristiques, les choix du joueur et tout le reste sont rétablis | OUI |
 | Sauvegarde | Lorsqu'on quitte le jeu et qu'on revient plus tard à la page d'accueil (sur le même navigateur), il est possible de reprendre l'aventure où on l'avait laissée | OUI |

@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../pictures/backgroundHomepage.jpg":[["backgroundHomepage.6ff32719.jpg","assets/pictures/backgroundHomepage.jpg"],"assets/pictures/backgroundHomepage.jpg"],"./../fonts/Quattrocento-Regular.ttf":[["Quattrocento-Regular.68bdbae7.ttf","assets/fonts/Quattrocento-Regular.ttf"],"assets/fonts/Quattrocento-Regular.ttf"],"./../fonts/Quattrocento-Bold.ttf":[["Quattrocento-Bold.2e6e171c.ttf","assets/fonts/Quattrocento-Bold.ttf"],"assets/fonts/Quattrocento-Bold.ttf"],"./../pictures/backgroundLoose1.jpg":[["backgroundLoose1.41e360e3.jpg","assets/pictures/backgroundLoose1.jpg"],"assets/pictures/backgroundLoose1.jpg"],"./../pictures/backgroundLoose2.jpg":[["backgroundLoose2.da8f0c1d.jpg","assets/pictures/backgroundLoose2.jpg"],"assets/pictures/backgroundLoose2.jpg"],"./../pictures/backgroundLoose3.jpg":[["backgroundLoose3.3f8f6607.jpg","assets/pictures/backgroundLoose3.jpg"],"assets/pictures/backgroundLoose3.jpg"],"./../pictures/backgroundLoose4.jpg":[["backgroundLoose4.e40a53b3.jpg","assets/pictures/backgroundLoose4.jpg"],"assets/pictures/backgroundLoose4.jpg"],"./../pictures/backgroundLoose5.jpg":[["backgroundLoose5.551a933a.jpg","assets/pictures/backgroundLoose5.jpg"],"assets/pictures/backgroundLoose5.jpg"],"./../pictures/backgroundLoose6.jpg":[["backgroundLoose6.524c38ae.jpg","assets/pictures/backgroundLoose6.jpg"],"assets/pictures/backgroundLoose6.jpg"],"./../pictures/backgroundLoose7.jpg":[["backgroundLoose7.90b77e99.jpg","assets/pictures/backgroundLoose7.jpg"],"assets/pictures/backgroundLoose7.jpg"],"./../pictures/backgroundLoose8.jpg":[["backgroundLoose8.5dd04cf1.jpg","assets/pictures/backgroundLoose8.jpg"],"assets/pictures/backgroundLoose8.jpg"],"./../pictures/backgroundWin.png":[["backgroundWin.e8374d36.png","assets/pictures/backgroundWin.png"],"assets/pictures/backgroundWin.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/vue/dist/vue.common.dev.js":[function(require,module,exports) {
+},{"./../pictures/backgroundHomepage.jpg":[["backgroundHomepage.6ff32719.jpg","assets/pictures/backgroundHomepage.jpg"],"assets/pictures/backgroundHomepage.jpg"],"./../fonts/Quattrocento-Regular.ttf":[["Quattrocento-Regular.68bdbae7.ttf","assets/fonts/Quattrocento-Regular.ttf"],"assets/fonts/Quattrocento-Regular.ttf"],"./../fonts/Quattrocento-Bold.ttf":[["Quattrocento-Bold.2e6e171c.ttf","assets/fonts/Quattrocento-Bold.ttf"],"assets/fonts/Quattrocento-Bold.ttf"],"./../pictures/backgroundLoose1.jpg":[["backgroundLoose1.41e360e3.jpg","assets/pictures/backgroundLoose1.jpg"],"assets/pictures/backgroundLoose1.jpg"],"./../pictures/backgroundLoose2.jpg":[["backgroundLoose2.da8f0c1d.jpg","assets/pictures/backgroundLoose2.jpg"],"assets/pictures/backgroundLoose2.jpg"],"./../pictures/backgroundLoose3.jpg":[["backgroundLoose3.3f8f6607.jpg","assets/pictures/backgroundLoose3.jpg"],"assets/pictures/backgroundLoose3.jpg"],"./../pictures/backgroundLoose4.jpg":[["backgroundLoose4.e40a53b3.jpg","assets/pictures/backgroundLoose4.jpg"],"assets/pictures/backgroundLoose4.jpg"],"./../pictures/backgroundLoose5.jpg":[["backgroundLoose5.551a933a.jpg","assets/pictures/backgroundLoose5.jpg"],"assets/pictures/backgroundLoose5.jpg"],"./../pictures/backgroundLoose6.jpg":[["backgroundLoose6.524c38ae.jpg","assets/pictures/backgroundLoose6.jpg"],"assets/pictures/backgroundLoose6.jpg"],"./../pictures/backgroundLoose7.jpg":[["backgroundLoose7.90b77e99.jpg","assets/pictures/backgroundLoose7.jpg"],"assets/pictures/backgroundLoose7.jpg"],"./../pictures/backgroundLoose8.jpg":[["backgroundLoose8.5dd04cf1.jpg","assets/pictures/backgroundLoose8.jpg"],"assets/pictures/backgroundLoose8.jpg"],"./../pictures/backgroundPoseidonSea.png":[["backgroundPoseidonSea.9a86eed5.png","assets/pictures/backgroundPoseidonSea.png"],"assets/pictures/backgroundPoseidonSea.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/vue/dist/vue.common.dev.js":[function(require,module,exports) {
 var global = arguments[3];
 /*!
  * Vue.js v2.6.10
@@ -16357,7 +16357,7 @@ exports.default = void 0;
 var _default = {
   data: function data() {
     return {
-      message: "Felicitations, vous avez bien mérité votre récompense ! Vous quittez Athène et pouvez ainsi reprendre la route vers de nouvelles aventures, qui sait ce qui vous attend ?"
+      message: "Félicitations, vous avez bien mérité votre récompense ! Vous quittez Athènes et pouvez ainsi reprendre la route vers de nouvelles aventures, qui sait ce qui vous attend ?"
     };
   }
 };
@@ -16381,7 +16381,7 @@ exports.default = _default;
       _c("h1", { staticClass: "win__title" }, [_vm._v(_vm._s(_vm.message))]),
       _vm._v(" "),
       _c("router-link", { staticClass: "button", attrs: { to: "/" } }, [
-        _vm._v("Terminer la partie")
+        _vm._v("TERMINER LA PARTIE")
       ])
     ],
     1
@@ -16552,7 +16552,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62676" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49874" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

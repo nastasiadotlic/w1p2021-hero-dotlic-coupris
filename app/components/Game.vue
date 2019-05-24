@@ -1,16 +1,14 @@
 <template>
   <div class="game" v-bind:style="{ 'background-image': 'url(' + step.img + ')' }" >
-    <img class="game__speaker" :src="image" alt="speaker" @click.prevent="playSound(sound)">
+    <img class="game__speaker" :src="image" alt="speaker" @click.prevent="playSound($refs.audio)">
     <div class="game__text">
       <h1 class="game__title">{{ step.message }}</h1>
       <div class="game__buttons">
         <a href="#" v-for="(action, index) in step.actions" class="button" :key="index" @click.prevent="choiceSelected(action)" > {{ action.answer }} </a>
       </div>
     </div>
-    <audio :src="sound" loop></audio>
+    <audio autoplay :src="sound" loop ref="audio"></audio>
    </div>
-  
-   
   
 </template>
 
@@ -61,7 +59,7 @@
 import game from "../data.js";
 import image from "../assets/pictures/speakeron.png";
 import sound from "../assets/audio/greekSoundtrack.mp3";
-// import characterService from '../';
+import music from "../assets/soundService.js";
  
 export default {
   data() {
@@ -82,15 +80,7 @@ export default {
       return game.steps.find(step => step.id === Number(this.$route.params.id));
     },
     choiceSelected(action) {
-      //let character = '';
-      //if (this.step.id === 1) {
-      //  characterService.setCharacter(action.answer);
-      //} else {
-      //  character = characterService.getCharacter();
-      //}
-
-      //message.replace('{name}', name);
-
+      
       if (action.loose) {
         this.$router.push({name: action.loose})
       } else {
@@ -101,12 +91,9 @@ export default {
         this.$router.push({name: action.win})
       }
     },
-    playSound(sound) {
-      if(sound) {
-        var audio = new Audio(sound);
-        audio.play();
-      } 
-    },
+    playSound(sound){
+      music.playSound(sound);
+    }
   },
 }
 
